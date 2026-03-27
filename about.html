@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Open Bankruptcy Project</title>
+    <meta name="description" content="About the Open Bankruptcy Project -- a 501(c)(3) nonprofit promoting transparency in federal bankruptcy courts through free tools, empirical research, and evidence-based policy advocacy.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/about.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="About - Open Bankruptcy Project">
+    <meta property="og:description" content="A 501(c)(3) nonprofit promoting transparency in federal bankruptcy courts through free tools and empirical research.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://openbankruptcyproject.org/about.html">
+
+    <!-- GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-053Z64N82F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-053Z64N82F');
+    </script>
+
+    <!-- Schema.org NonprofitOrganization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "NonprofitOrganization",
+        "name": "Open Bankruptcy Project",
+        "url": "https://openbankruptcyproject.org",
+        "description": "Free, open-source bankruptcy court transparency tools and empirical research on consumer bankruptcy outcomes.",
+        "nonprofitStatus": "https://schema.org/NonprofitType501c3",
+        "foundingDate": "2026-03-27",
+        "sameAs": [
+            "https://github.com/ilikemath9999/openbankruptcyproject.org",
+            "https://ko-fi.com/openbankruptcy"
+        ],
+        "areaServed": {
+            "@type": "Country",
+            "name": "United States"
+        },
+        "knowsAbout": ["Bankruptcy", "Consumer Debt", "Chapter 13", "Chapter 7", "Federal Courts"]
+    }
+    </script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bg: #0d1117;
+            --surface: #161b22;
+            --border: #30363d;
+            --text: #e6edf3;
+            --text-muted: #8b949e;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --green: #3fb950;
+            --gold: #d29922;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        .container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+        nav {
+            border-bottom: 1px solid var(--border);
+            padding: 16px 0;
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
+        }
+        nav .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .nav-brand { font-size: 1.1rem; font-weight: 700; color: var(--text); }
+        .nav-brand a { color: var(--text); }
+        .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 20px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.9rem; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .nav-links a.active { color: var(--text); }
+
+        .page-header {
+            padding: 64px 0 48px;
+            border-bottom: 1px solid var(--border);
+        }
+        .page-header h1 {
+            font-size: 2.4rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+        .page-header p {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            max-width: 640px;
+        }
+
+        section { padding: 48px 0; border-bottom: 1px solid var(--border); }
+        section:last-of-type { border-bottom: none; }
+        section h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        section p { color: var(--text-muted); margin-bottom: 16px; max-width: 720px; }
+
+        .info-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 28px;
+            margin-bottom: 16px;
+        }
+        .info-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+            color: var(--text);
+        }
+        .info-card p { margin-bottom: 8px; }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-top: 24px;
+        }
+        .info-grid .info-card { margin-bottom: 0; }
+        .info-card .label {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            margin-bottom: 4px;
+        }
+        .info-card .value {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 16px;
+            margin-top: 24px;
+        }
+        .value-item {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 24px;
+        }
+        .value-item h3 {
+            font-size: 1rem;
+            margin-bottom: 8px;
+            color: var(--green);
+        }
+        .value-item p {
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            margin-bottom: 0;
+        }
+
+        .origin-quote {
+            background: var(--surface);
+            border-left: 4px solid var(--accent);
+            padding: 24px;
+            border-radius: 0 8px 8px 0;
+            margin-top: 24px;
+        }
+        .origin-quote p { color: var(--text); font-size: 1rem; margin-bottom: 0; }
+
+        footer {
+            padding: 40px 0;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+        }
+        footer p { margin-bottom: 8px; }
+        footer a { color: var(--text-muted); }
+        footer a:hover { color: var(--text); }
+
+        @media (max-width: 600px) {
+            .page-header { padding: 40px 0 32px; }
+            .page-header h1 { font-size: 1.8rem; }
+            section { padding: 32px 0; }
+            section h2 { font-size: 1.3rem; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="container">
+        <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about.html" class="active">About</a>
+            <a href="/research.html">Research</a>
+            <a href="/impact.html">Impact</a>
+            <a href="/press.html">Press</a>
+            <a href="/contact.html">Contact</a>
+            <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a>
+        </div>
+    </div>
+</nav>
+
+<header class="page-header">
+    <div class="container">
+        <h1>About</h1>
+        <p>The Open Bankruptcy Project promotes transparency in federal bankruptcy courts through free tools, empirical research, and evidence-based policy advocacy.</p>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+        <h2>Organization</h2>
+
+        <div class="info-grid">
+            <div class="info-card">
+                <div class="label">Name</div>
+                <div class="value">Open Bankruptcy Project</div>
+            </div>
+            <div class="info-card">
+                <div class="label">Founded</div>
+                <div class="value">March 27, 2026</div>
+            </div>
+            <div class="info-card">
+                <div class="label">Type</div>
+                <div class="value">Missouri Nonprofit Corporation</div>
+            </div>
+            <div class="info-card">
+                <div class="label">Tax Status</div>
+                <div class="value">501(c)(3) -- Determination Pending</div>
+            </div>
+            <div class="info-card">
+                <div class="label">EIN</div>
+                <div class="value">Available Upon Request</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2>Our Mission</h2>
+        <p>We exist to promote transparency in federal bankruptcy courts through free tools, empirical research, and evidence-based policy advocacy. Every tool we build is free, open source, and available to anyone -- debtors, attorneys, judges, researchers, journalists, and policymakers.</p>
+        <p>We do not sell data. We do not harvest emails. We do not accept attorney referral fees. We do not run ads. We are funded entirely by voluntary donations from individuals who believe the public deserves better access to court data.</p>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2>Origin</h2>
+        <div class="origin-quote">
+            <p>The Open Bankruptcy Project was founded by a consumer bankruptcy debtor who discovered systemic problems and decided to fix them. Analysis of 4.9 million federal cases revealed that 391,951 repeat filers received a Chapter 13 discharge with zero eligibility verification under Section 1328(f). The statutory safeguard existed on paper but was not being enforced in practice -- across any of the 94 federal bankruptcy districts.</p>
+        </div>
+        <p style="margin-top:20px;">We built the first free screening tool to check discharge eligibility against the actual federal case database. We shared it publicly, and the response showed a massive unmet need for free, unbiased bankruptcy information. What started as a single screener grew into a 50-domain network covering every major section of the Bankruptcy Code.</p>
+        <p>Within weeks of launch, our empirical research was accepted by the Advisory Committee on Bankruptcy Rules as Suggestion 26-BK-3 -- a formal proposal to require attorney-level outcome disclosure in consumer bankruptcy cases.</p>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2>Governance</h2>
+        <p>The Open Bankruptcy Project is led by a small volunteer board of directors. All board members serve without compensation. The organization's bylaws permanently prohibit sale, merger, or acquisition -- ensuring the project remains independent and mission-driven in perpetuity.</p>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2>Our Values</h2>
+
+        <div class="values-grid">
+            <div class="value-item">
+                <h3>Free Access</h3>
+                <p>Every tool, every page, every dataset -- free to use, forever. No paywalls, no sign-ups, no premium tiers.</p>
+            </div>
+            <div class="value-item">
+                <h3>Open Source</h3>
+                <p>Our code is public on GitHub. Anyone can audit it, fork it, or improve it.</p>
+            </div>
+            <div class="value-item">
+                <h3>No Attorney Referral Fees</h3>
+                <p>We do not accept referral fees from attorneys or law firms. Our recommendations are based on data, not payments.</p>
+            </div>
+            <div class="value-item">
+                <h3>No Data Harvesting</h3>
+                <p>We do not collect personal information. No email capture, no tracking cookies beyond basic analytics, no user profiles.</p>
+            </div>
+            <div class="value-item">
+                <h3>No Corporate Sponsors</h3>
+                <p>We are funded by individual donations. No law firm sponsors, no creditor sponsors, no conflicts of interest.</p>
+            </div>
+            <div class="value-item">
+                <h3>Permanent Independence</h3>
+                <p>Our bylaws permanently prohibit sale, merger, or acquisition of the organization. The project cannot be bought.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization (determination pending). EIN available upon request.</p>
+        <p>All tools are free and open source. <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">View on GitHub</a></p>
+        <p style="margin-top:16px; font-size:0.8rem;">No legal advice is provided. This is educational information only.</p>
+    </div>
+</footer>
+
+</body>
+</html>

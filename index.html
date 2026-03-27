@@ -99,9 +99,12 @@
             font-weight: 700;
             color: var(--text);
         }
+        .nav-brand a { color: var(--text); }
+        .nav-brand a:hover { text-decoration: none; }
         .nav-links { display: flex; gap: 20px; flex-wrap: wrap; }
         .nav-links a { color: var(--text-muted); font-size: 0.9rem; }
         .nav-links a:hover { color: var(--text); text-decoration: none; }
+        .nav-links a.active { color: var(--text); }
 
         /* HERO */
         .hero {
@@ -282,12 +285,14 @@
 
 <nav>
     <div class="container">
-        <span class="nav-brand">Open Bankruptcy Project</span>
+        <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
         <div class="nav-links">
-            <a href="#mission">Mission</a>
-            <a href="#network">Network</a>
-            <a href="#research">Research</a>
-            <a href="#donate">Donate</a>
+            <a href="/" class="active">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/research.html">Research</a>
+            <a href="/impact.html">Impact</a>
+            <a href="/press.html">Press</a>
+            <a href="/contact.html">Contact</a>
             <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a>
         </div>
     </div>
@@ -312,11 +317,11 @@
         <span class="stat-label">Federal Districts</span>
     </div>
     <div>
-        <span class="stat-number">1,040+</span>
+        <span class="stat-number">1,800+</span>
         <span class="stat-label">Free Pages</span>
     </div>
     <div>
-        <span class="stat-number">30</span>
+        <span class="stat-number">50+</span>
         <span class="stat-label">Domains</span>
     </div>
     <div>
@@ -344,7 +349,7 @@
             <div class="pillar">
                 <span class="pillar-icon" aria-hidden="true">&#x1F4DA;</span>
                 <h3>Educational Network</h3>
-                <p>A 30-domain network of plain-language guides to bankruptcy statutes, procedures, and consumer rights. Written for real people, not search engines.</p>
+                <p>A 50-domain network of plain-language guides to bankruptcy statutes, procedures, and consumer rights. Written for real people, not search engines.</p>
             </div>
             <div class="pillar">
                 <span class="pillar-icon" aria-hidden="true">&#x2696;&#xFE0F;</span>
@@ -373,6 +378,7 @@
         <p>Every site in the network is free, ad-free, and open source. Each domain covers a specific section of the Bankruptcy Code or a key consumer protection topic.</p>
 
         <div class="network-grid">
+            <!-- Screening & Research Platforms -->
             <a href="https://1328f.com" class="network-item" target="_blank" rel="noopener">
                 <span class="domain">1328f.com</span>
                 <span class="desc">Discharge eligibility screener -- Section 1328(f). Check whether a prior filing blocks your discharge.</span>
@@ -381,6 +387,8 @@
                 <span class="domain">1328f.org</span>
                 <span class="desc">Research platform -- attorney analytics, district statistics, and empirical data on Chapter 13 outcomes.</span>
             </a>
+
+            <!-- Core Bankruptcy Code Sections -->
             <a href="https://automaticstay.org" class="network-item" target="_blank" rel="noopener">
                 <span class="domain">automaticstay.org</span>
                 <span class="desc">Guide to the automatic stay -- Section 362. What it protects, when it expires, and how to enforce it.</span>
@@ -405,9 +413,131 @@
                 <span class="domain">109g.org</span>
                 <span class="desc">Guide to filing eligibility -- Section 109(g). Restrictions after dismissal or voluntary withdrawal.</span>
             </a>
+            <a href="https://section1328.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">section1328.org</span>
+                <span class="desc">Guide to Chapter 13 discharge -- Section 1328. Requirements for discharge upon plan completion.</span>
+            </a>
+            <a href="https://section329.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">section329.org</span>
+                <span class="desc">Guide to attorney fee disgorgement -- Section 329. Court oversight of attorney compensation in bankruptcy.</span>
+            </a>
+            <a href="https://section1191.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">section1191.org</span>
+                <span class="desc">Guide to Subchapter V plan confirmation -- Section 1191. Small business reorganization requirements.</span>
+            </a>
+            <a href="https://section1192.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">section1192.org</span>
+                <span class="desc">Guide to Subchapter V discharge -- Section 1192. Discharge scope in small business cases.</span>
+            </a>
+            <a href="https://dischargeinjunction.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">dischargeinjunction.org</span>
+                <span class="desc">Guide to the discharge injunction -- Section 524. Permanent protection against collection of discharged debts.</span>
+            </a>
+            <a href="https://dischargeinjunction.com" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">dischargeinjunction.com</span>
+                <span class="desc">Section 524 discharge injunction -- companion site covering enforcement and creditor violations.</span>
+            </a>
+            <a href="https://relieffromstay.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">relieffromstay.org</span>
+                <span class="desc">Guide to relief from stay -- Section 362(d). When and how creditors can lift the automatic stay.</span>
+            </a>
+            <a href="https://codebtorstay.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">codebtorstay.org</span>
+                <span class="desc">Guide to the codebtor stay -- Section 1301. Protection for co-signers in Chapter 13 cases.</span>
+            </a>
+            <a href="https://dischargebar.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">dischargebar.org</span>
+                <span class="desc">Overview of discharge bars in bankruptcy. Time limits and eligibility restrictions between filings.</span>
+            </a>
+            <a href="https://nondischargeable.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">nondischargeable.org</span>
+                <span class="desc">Guide to nondischargeable debts. Which obligations survive bankruptcy and the legal basis for each.</span>
+            </a>
+            <a href="https://reaffirmationagreement.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">reaffirmationagreement.org</span>
+                <span class="desc">Guide to reaffirmation agreements. When keeping debt after bankruptcy makes sense and when it does not.</span>
+            </a>
+            <a href="https://lienstripping.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">lienstripping.org</span>
+                <span class="desc">Guide to lien stripping in bankruptcy. Removing junior liens when property value falls below senior debt.</span>
+            </a>
+
+            <!-- Filing & Process Guides -->
+            <a href="https://whatischapter7.com" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">whatischapter7.com</span>
+                <span class="desc">Chapter 7 bankruptcy explained. Eligibility, process, timeline, and what to expect from liquidation.</span>
+            </a>
+            <a href="https://whatischapter7.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">whatischapter7.org</span>
+                <span class="desc">Chapter 7 overview -- companion site with detailed exemption guides and means test walkthrough.</span>
+            </a>
+            <a href="https://chapter13plan.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">chapter13plan.org</span>
+                <span class="desc">Guide to Chapter 13 plan requirements. Payment calculations, plan length, and confirmation standards.</span>
+            </a>
+            <a href="https://voluntarypetition.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">voluntarypetition.org</span>
+                <span class="desc">Guide to filing a voluntary bankruptcy petition. Forms, fees, credit counseling, and first steps.</span>
+            </a>
+            <a href="https://howtofilebankruptcy.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">howtofilebankruptcy.org</span>
+                <span class="desc">Step-by-step guide to filing bankruptcy. From credit counseling through discharge, in plain language.</span>
+            </a>
+            <a href="https://prosedebtors.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">prosedebtors.org</span>
+                <span class="desc">Guide for pro se bankruptcy filers. Resources, forms, and practical advice for self-represented debtors.</span>
+            </a>
+            <a href="https://prosebankruptcy.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">prosebankruptcy.org</span>
+                <span class="desc">Pro se bankruptcy filing guide. Court procedures, common mistakes, and how to navigate without an attorney.</span>
+            </a>
+
+            <!-- Outcomes & Situations -->
+            <a href="https://canifileagain.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">canifileagain.org</span>
+                <span class="desc">Can I file bankruptcy again? Time limits between filings for every chapter combination.</span>
+            </a>
+            <a href="https://dismissedbankruptcy.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">dismissedbankruptcy.org</span>
+                <span class="desc">What happens after a bankruptcy dismissal. Refiling options, waiting periods, and next steps.</span>
+            </a>
+            <a href="https://serialfiler.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">serialfiler.org</span>
+                <span class="desc">Serial filing patterns in bankruptcy. Data on repeat filings, outcomes, and automatic stay limitations.</span>
+            </a>
+            <a href="https://bankruptcyhardship.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">bankruptcyhardship.org</span>
+                <span class="desc">Guide to hardship discharge -- Section 1328(b). When you cannot complete your Chapter 13 plan.</span>
+            </a>
+            <a href="https://bankruptcyfreshstart.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">bankruptcyfreshstart.org</span>
+                <span class="desc">The fresh start after bankruptcy. Rebuilding credit, understanding your discharge, and moving forward.</span>
+            </a>
+            <a href="https://bankruptcytaxes.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">bankruptcytaxes.org</span>
+                <span class="desc">Tax debts in bankruptcy. Which taxes can be discharged and the rules for priority tax claims.</span>
+            </a>
+            <a href="https://garnishedwages.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">garnishedwages.org</span>
+                <span class="desc">Stop wage garnishment through bankruptcy. How the automatic stay protects your paycheck.</span>
+            </a>
+            <a href="https://dismissalrate.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">dismissalrate.org</span>
+                <span class="desc">Bankruptcy dismissal rate data. Empirical analysis of dismissal patterns by district, chapter, and attorney.</span>
+            </a>
+
+            <!-- Consumer Protection & Accountability -->
             <a href="https://bankruptcymill.org" class="network-item" target="_blank" rel="noopener">
                 <span class="domain">bankruptcymill.org</span>
                 <span class="desc">Consumer protection resource on high-volume bankruptcy practices and how to identify them.</span>
+            </a>
+            <a href="https://bankruptcymill.com" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">bankruptcymill.com</span>
+                <span class="desc">Bankruptcy mill detection tools. Data-driven screening to help consumers evaluate attorney track records.</span>
+            </a>
+            <a href="https://bankruptcymalpractice.org" class="network-item" target="_blank" rel="noopener">
+                <span class="domain">bankruptcymalpractice.org</span>
+                <span class="desc">Bankruptcy attorney malpractice -- your rights. Signs of malpractice and how to file complaints.</span>
             </a>
         </div>
     </div>
