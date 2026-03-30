@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Researchers -- Open Bankruptcy Project</title>
+    <meta name="description" content="4.9 million federal bankruptcy cases, open methodology, and free data access for academic researchers. FJC Integrated Database analysis, district-level statistics, and collaboration opportunities.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/researchers.html">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+    <meta property="og:title" content="For Researchers -- Open Bankruptcy Project">
+    <meta property="og:description" content="4.9 million cases. Open methodology. Free access.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://openbankruptcyproject.org/researchers.html">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FTWLM223G7');
+  gtag('config', 'G-053Z64N82F');
+    </script>
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0d1117;
+            --surface: #151b23;
+            --surface-hover: #1a2230;
+            --border: #252d38;
+            --border-light: #2d3748;
+            --text: #e6edf3;
+            --text-secondary: #b1bac4;
+            --text-muted: #7d8590;
+            --accent: #58a6ff;
+            --accent-hover: #79b8ff;
+            --gold: #d29922;
+        }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg); color: var(--text); line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); }
+        .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+
+        nav {
+            border-bottom: 1px solid var(--border); padding: 18px 0; position: sticky; top: 0;
+            background: rgba(13,17,23,0.95); backdrop-filter: blur(12px); z-index: 100;
+        }
+        nav .nav-inner { max-width: 1040px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .nav-brand { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+        .nav-brand a { color: var(--text); }
+        .nav-brand a:hover { text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; flex-wrap: wrap; }
+        .nav-links a { color: var(--text-muted); font-size: 0.88rem; font-weight: 500; }
+        .nav-links a:hover { color: var(--text); text-decoration: none; }
+
+        .page-header { padding: 72px 0 48px; border-bottom: 1px solid var(--border); }
+        .page-header h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.03em; margin-bottom: 12px; }
+        .page-header .subtitle { font-size: 1.1rem; color: var(--text-secondary); }
+
+        .content { padding: 56px 0; }
+        .content h2 { font-size: 1.4rem; font-weight: 700; margin: 48px 0 16px; letter-spacing: -0.02em; }
+        .content h2:first-child { margin-top: 0; }
+        .content p { color: var(--text-secondary); margin-bottom: 16px; font-size: 1rem; line-height: 1.8; }
+        .content ul { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; }
+        .content li { margin-bottom: 8px; }
+
+        .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 24px; }
+        .card {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px;
+        }
+        .card .card-title { font-weight: 700; font-size: 1rem; margin-bottom: 4px; }
+        .card .card-value { font-size: 1.6rem; font-weight: 800; color: var(--accent); margin-bottom: 8px; }
+        .card .card-text { font-size: 0.92rem; color: var(--text-muted); line-height: 1.7; }
+
+        .highlight-box {
+            background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+            border-radius: 10px; padding: 24px 28px; margin-top: 24px;
+        }
+        .highlight-box p { margin-bottom: 8px; }
+        .highlight-box p:last-child { margin-bottom: 0; }
+
+        .cta-box {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+            padding: 32px; margin-top: 24px; text-align: center;
+        }
+        .cta-box p { color: var(--text-secondary); margin-bottom: 16px; }
+        .cta-box a.cta-link {
+            display: inline-block; padding: 12px 28px; background: var(--accent); color: #0d1117;
+            font-weight: 700; border-radius: 6px; font-size: 0.95rem;
+        }
+        .cta-box a.cta-link:hover { background: var(--accent-hover); color: #0d1117; }
+
+        footer {
+            padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem;
+            border-top: 1px solid var(--border);
+        }
+        footer .footer-links { margin-bottom: 20px; }
+        footer .footer-links a { color: var(--text-muted); margin: 0 12px; font-size: 0.85rem; font-weight: 500; }
+        footer .footer-links a:hover { color: var(--text); }
+        footer p { margin-bottom: 6px; line-height: 1.6; }
+
+        @media (max-width: 600px) {
+            .container { padding: 0 20px; }
+            .page-header { padding: 48px 0 32px; }
+            .page-header h1 { font-size: 1.8rem; }
+            .content { padding: 40px 0; }
+            .card .card-value { font-size: 1.3rem; }
+        }
+    </style>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What data does the Open Bankruptcy Project provide to researchers?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We maintain a research database of 4.9 million federal bankruptcy cases from the FJC Integrated Database (2008-2024), covering all 94 federal judicial districts. Our data includes case outcomes, filing patterns, attorney-level performance metrics, and statutory compliance analysis. We share data freely with academic researchers."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Has the Open Bankruptcy Project's methodology been peer reviewed?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Our screening methodology has been reviewed by faculty at UC Berkeley School of Law. The full methodology is published at 1328f.org/methodology and we welcome replication, critique, and extension by other researchers."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is Suggestion 26-BK-3?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Suggestion 26-BK-3 was accepted by the Advisory Committee on Bankruptcy Rules on March 23, 2026. Based on our empirical analysis of 4.9 million cases, it is the first data-driven suggestion from a non-institutional filer to be accepted by the federal Rules Committee. It addresses systemic gaps in Section 1328(f) discharge bar enforcement."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How can academic researchers access Open Bankruptcy Project data?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We share data freely with academic researchers. Our database is queried via SQL (SQLite). We can provide FJC case-level data, district-level aggregate statistics, attorney-level performance metrics based on publicly filed records, and custom queries on request. Contact us to discuss data access."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does the Open Bankruptcy Project collaborate with academic institutions?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. We welcome co-authored research papers, methodology review and critique, extension of our analysis to new statutory provisions, and cross-institutional data sharing. Current collaborators and advisors include faculty from UC Berkeley School of Law."
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="about.html">About</a>
+            <a href="research.html">Research</a>
+            <a href="network.html">Network</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<div class="page-header">
+    <div class="container">
+        <h1>For Researchers</h1>
+        <p class="subtitle">4.9 million cases. Open methodology. Free access.</p>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container">
+
+        <h2>Our Data</h2>
+        <p>We maintain a research database of 4.9 million federal bankruptcy cases from the FJC Integrated Database (2008-2024), covering all 94 federal judicial districts. Our data includes case outcomes, filing patterns, attorney-level performance metrics, and statutory compliance analysis.</p>
+        <p>The database is structured for research use -- clean, normalized, and queryable via SQL. We have invested thousands of hours in data cleaning, cross-referencing, and validation to ensure accuracy at the case level.</p>
+
+        <h2>Published Methodology</h2>
+        <p>Our screening methodology is published at <a href="https://1328f.org/methodology" target="_blank" rel="noopener">1328f.org/methodology</a> and has been reviewed by faculty at UC Berkeley School of Law. We welcome replication, critique, and extension.</p>
+        <ul>
+            <li><a href="https://1328f.org/methodology" target="_blank" rel="noopener">Methodology documentation</a></li>
+            <li><a href="https://1328f.org/replicate" target="_blank" rel="noopener">Replication guide</a></li>
+        </ul>
+        <p>We believe that open methodology is as important as open data. If you find an error in our approach, we want to know about it.</p>
+
+        <h2>Key Research Findings</h2>
+        <div class="card-grid">
+            <div class="card">
+                <div class="card-value">391,951</div>
+                <div class="card-title">Repeat filers identified</div>
+                <div class="card-text">Debtors with multiple federal bankruptcy filings between 2008 and 2024.</div>
+            </div>
+            <div class="card">
+                <div class="card-value">264</div>
+                <div class="card-title">Potential 1328(f) violations</div>
+                <div class="card-text">Cases where prior filing history would trigger a statutory discharge bar that was not flagged.</div>
+            </div>
+            <div class="card">
+                <div class="card-value">27.4%</div>
+                <div class="card-title">Prior-filer rate</div>
+                <div class="card-text">Among high-volume attorneys, compared to the national baseline -- a significant deviation.</div>
+            </div>
+            <div class="card">
+                <div class="card-value">94</div>
+                <div class="card-title">Districts analyzed</div>
+                <div class="card-text">Significant cross-district variation in compliance patterns across all federal judicial districts.</div>
+            </div>
+        </div>
+
+        <h2>Data Access</h2>
+        <p>We share data freely with academic researchers. Our database is queried via SQL (SQLite). We can provide:</p>
+        <ul>
+            <li>FJC case-level data (anonymized)</li>
+            <li>District-level aggregate statistics</li>
+            <li>Attorney-level performance metrics (publicly filed attorneys of record)</li>
+            <li>Custom queries on request</li>
+        </ul>
+        <p>There are no fees, no licensing agreements, and no restrictions on publication. We ask only that you cite the Open Bankruptcy Project as a data source and share your findings with us when published.</p>
+
+        <h2>Collaboration</h2>
+        <p>We welcome:</p>
+        <ul>
+            <li>Co-authored research papers</li>
+            <li>Methodology review and critique</li>
+            <li>Extension of our analysis to new statutory provisions</li>
+            <li>Cross-institutional data sharing</li>
+        </ul>
+        <p>Current collaborators and advisors include faculty from UC Berkeley School of Law.</p>
+
+        <h2>Suggestion 26-BK-3</h2>
+        <div class="highlight-box">
+            <p>Our empirical findings led to Suggestion 26-BK-3, accepted by the Advisory Committee on Bankruptcy Rules on March 23, 2026. This is the first data-driven suggestion from a non-institutional filer to be accepted by the Rules Committee.</p>
+            <p>The suggestion addresses systemic gaps in Section 1328(f) discharge bar enforcement, supported by analysis of 4.9 million federal cases. It is listed on <a href="https://www.uscourts.gov/rules-policies/records-and-archives-rules-committees/suggestions" target="_blank" rel="noopener">uscourts.gov</a> as pending consideration by the Advisory Committee.</p>
+        </div>
+
+        <h2>Get in Touch</h2>
+        <div class="cta-box">
+            <p>Contact us to discuss data access, collaboration, or methodology questions.</p>
+            <a href="contact.html?topic=research" class="cta-link">Contact Us -- Research Inquiry</a>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="about.html">About</a>
+            <a href="research.html">Research</a>
+            <a href="contact.html">Contact</a>
+            <a href="https://github.com/ilikemath9999" target="_blank" rel="noopener">GitHub</a>
+            <a href="donate.html">Donate</a>
+            <a href="https://ko-fi.com/openbankruptcyproject" target="_blank" rel="noopener">Ko-fi</a>
+        </div>
+        <p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization (determination pending).</p>
+        <p>EIN available upon request. All tools and data released under open source licenses.</p>
+    </div>
+</footer>
+
+</body>
+</html>

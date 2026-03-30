@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About -- Open Bankruptcy Project</title>
-    <meta name="description" content="About the Open Bankruptcy Project: our mission, history, methodology, and leadership. A 501(c)(3) nonprofit building free bankruptcy court transparency tools.">
-    <link rel="canonical" href="https://openbankruptcyproject.org/about.html">
+    <title>Terms of Use -- Open Bankruptcy Project</title>
+    <meta name="description" content="Terms of use for the Open Bankruptcy Project. Our tools are free, open source, and do not constitute legal advice.">
+    <link rel="canonical" href="https://openbankruptcyproject.org/terms.html">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
-    <meta property="og:title" content="About -- Open Bankruptcy Project">
-    <meta property="og:description" content="Our mission, history, methodology, and leadership.">
+    <meta property="og:title" content="Terms of Use -- Open Bankruptcy Project">
+    <meta property="og:description" content="Terms of use for OBP tools and data. Free for any lawful purpose.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://openbankruptcyproject.org/about.html">
+    <meta property="og:url" content="https://openbankruptcyproject.org/terms.html">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
     <script>
@@ -19,7 +19,32 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-FTWLM223G7');
-  gtag('config', 'G-053Z64N82F');
+        gtag('config', 'G-053Z64N82F');
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Can I use OBP tools for my legal practice?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, our tools are free for any lawful purpose. Attorneys, legal aid organizations, researchers, journalists, and members of the public may use our tools and data without restriction. Attribution is appreciated but not required."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is the data on this site guaranteed to be accurate?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We strive for accuracy but cannot guarantee completeness. Our screening methodology is published and peer-reviewed. However, court records change, cases are amended, and statutory interpretations evolve. Users should independently verify any information before relying on it."
+                }
+            }
+        ]
+    }
     </script>
 
     <style>
@@ -70,21 +95,10 @@
         .content ul { color: var(--text-secondary); margin: 0 0 16px 24px; line-height: 1.8; }
         .content li { margin-bottom: 8px; }
 
-        .board-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 24px; }
-        .board-card {
-            background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px;
+        .effective-date {
+            display: inline-block; background: var(--surface); border: 1px solid var(--border);
+            border-radius: 6px; padding: 8px 16px; font-size: 0.88rem; color: var(--text-muted); margin-top: 8px;
         }
-        .board-card .role { font-weight: 700; font-size: 1rem; margin-bottom: 4px; }
-        .board-card .location { font-size: 0.88rem; color: var(--text-muted); }
-
-        .timeline { margin-top: 24px; }
-        .timeline-item {
-            display: flex; gap: 20px; padding: 16px 0;
-            border-bottom: 1px solid var(--border);
-        }
-        .timeline-item:last-child { border-bottom: none; }
-        .timeline-date { font-size: 0.85rem; font-weight: 600; color: var(--accent); min-width: 100px; }
-        .timeline-text { font-size: 0.95rem; color: var(--text-secondary); }
 
         footer {
             padding: 48px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.82rem;
@@ -100,7 +114,6 @@
             .page-header { padding: 48px 0 32px; }
             .page-header h1 { font-size: 1.8rem; }
             .content { padding: 40px 0; }
-            .timeline-item { flex-direction: column; gap: 4px; }
         }
     </style>
 </head>
@@ -121,50 +134,39 @@
 
 <div class="page-header">
     <div class="container">
-        <h1>About the Open Bankruptcy Project</h1>
-        <p class="subtitle">Free tools, open data, and empirical research for the public interest.</p>
+        <h1>Terms of Use</h1>
+        <p class="subtitle">Free tools, open data, no legal advice.</p>
     </div>
 </div>
 
 <div class="content">
     <div class="container">
 
-        <h2>Mission</h2>
-        <p>The Open Bankruptcy Project builds free, open-source tools that screen federal bankruptcy cases for statutory compliance failures. We make public court data accessible and understandable to the people it affects most -- debtors, advocates, researchers, and policymakers.</p>
-        <p>Every tool we build is free. Every dataset we produce is open. We accept no attorney referral fees, run no advertising, and harvest no user data. Our work is funded entirely by public donations.</p>
+        <h2>No Legal Advice</h2>
+        <p>The Open Bankruptcy Project provides free educational tools and research. Nothing on any of our websites constitutes legal advice. Our tools screen publicly available federal court data for statistical patterns. They do not evaluate individual cases, recommend courses of action, or substitute for consultation with a licensed attorney.</p>
 
-        <h2>History</h2>
-        <div class="timeline">
-            <div class="timeline-item">
-                <span class="timeline-date">2025</span>
-                <span class="timeline-text">Project founded. Initial analysis of Federal Judicial Center dataset (4.9 million cases, 2008-2024). First screening tools built for Section 1328(f) discharge bars.</span>
-            </div>
-            <div class="timeline-item">
-                <span class="timeline-date">Early 2026</span>
-                <span class="timeline-text">Network expanded to 75+ domains covering major bankruptcy statutes. Spanish-language resources launched. 2,000+ pages of free educational content published.</span>
-            </div>
-            <div class="timeline-item">
-                <span class="timeline-date">March 2026</span>
-                <span class="timeline-text">Suggestion 26-BK-3 accepted by the Advisory Committee on Bankruptcy Rules. Research methodology validated by UC Berkeley School of Law faculty. 501(c)(3) formation initiated.</span>
-            </div>
-        </div>
+        <h2>Accuracy</h2>
+        <p>We make every effort to ensure our data and tools are accurate. Our screening methodology is published and peer-reviewed. However, we cannot guarantee that all data is complete, current, or error-free. Court records change, cases are amended, and statutory interpretations evolve. Users should independently verify any information before relying on it.</p>
 
-        <h2>Methodology</h2>
-        <p>Our screening tools analyze the Federal Judicial Center's Integrated Database, which contains filing-level records for all federal bankruptcy cases. We cross-reference prior filing histories against statutory discharge bars in Sections 1328(f), 727(a)(8), and 109(g) of the Bankruptcy Code.</p>
-        <p>The methodology identifies cases where a debtor's prior filing history would trigger a statutory bar that was not flagged at the point of case initiation. This analysis has been reviewed by faculty at UC Berkeley School of Law and forms the empirical basis for Suggestion 26-BK-3.</p>
-        <p>Full methodological details are available on our <a href="research.html">Research</a> page.</p>
+        <h2>Use of Tools</h2>
+        <p>Our tools are free for any lawful purpose. Attorneys, legal aid organizations, researchers, journalists, and members of the public may use our tools and data without restriction. Attribution is appreciated but not required.</p>
 
-        <h2>Board of Directors</h2>
-        <div class="board-grid">
-            <div class="board-card">
-                <div class="role">President</div>
-                <div class="location">Kansas City, Missouri</div>
-            </div>
-        </div>
+        <h2>Open Source</h2>
+        <p>Our code is published on GitHub under open source licenses. You may fork, modify, and redistribute our tools in accordance with the applicable license terms.</p>
 
-        <h2>Governance</h2>
-        <p>The Open Bankruptcy Project is organized as a 501(c)(3) nonprofit corporation (determination pending). Our articles of incorporation include an unamendable anti-acquisition clause: the organization cannot be sold, merged, or acquired under any circumstances.</p>
-        <p>We maintain strict independence from attorney advertising, legal referral services, and commercial legal technology companies. We do not accept funding that would create conflicts of interest with our mission of public transparency.</p>
+        <h2>Limitation of Liability</h2>
+        <p>The Open Bankruptcy Project, its directors, and its volunteers are not liable for any damages arising from the use of our tools, data, or educational content. Use at your own risk.</p>
+
+        <h2>Court Data</h2>
+        <p>Our tools analyze publicly available federal court records obtained through PACER, the Federal Judicial Center, CourtListener, and RECAP. We do not modify court records. Our analysis reflects statistical patterns, not legal conclusions.</p>
+
+        <h2>Links to Third Parties</h2>
+        <p>Our sites contain links to external resources (PACER, CourtListener, Ko-fi, GitHub, etc.). We are not responsible for the content or privacy practices of third-party sites.</p>
+
+        <h2>Contact</h2>
+        <p><a href="mailto:info@openbankruptcyproject.org">info@openbankruptcyproject.org</a></p>
+
+        <p><span class="effective-date">Effective Date: March 30, 2026</span></p>
 
     </div>
 </div>
