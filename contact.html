@@ -263,15 +263,15 @@
             var btn = form.querySelector('.form-submit');
             btn.disabled = true;
             btn.textContent = 'Sending...';
-            var formData = new FormData();
-            formData.append('name', form.querySelector('#name').value);
-            formData.append('email', form.querySelector('#email').value);
-            formData.append('topic', form.querySelector('#topic').value);
-            formData.append('message', form.querySelector('#message').value);
+            var payload = JSON.stringify({
+                name: form.querySelector('#name').value,
+                email: form.querySelector('#email').value,
+                topic: form.querySelector('#topic').value,
+                message: form.querySelector('#message').value
+            });
             fetch(form.action, {
                 method: 'POST',
-                body: formData,
-                mode: 'no-cors'
+                body: payload
             }).then(function() {
                 form.style.display = 'none';
                 document.getElementById('form-success').style.display = 'block';
