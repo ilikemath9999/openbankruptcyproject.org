@@ -3,3 +3,4 @@ Allow: /
 
 
 Sitemap: https://openbankruptcyproject.org/sitemapindex.xml
+Sitemap: https://openbankruptcyproject.org/sitemap.xml
