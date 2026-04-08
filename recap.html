@@ -402,15 +402,15 @@
 <div class="container">
     <div class="stats-grid">
         <div class="stat-cell">
-            <span class="stat-number green" id="doc-count">2,060</span>
+            <span class="stat-number green" id="doc-count">3,100+</span>
             <span class="stat-label">Documents Freed</span>
         </div>
         <div class="stat-cell">
-            <span class="stat-number accent" id="case-count">394</span>
+            <span class="stat-number accent" id="case-count">549</span>
             <span class="stat-label">Cases Covered</span>
         </div>
         <div class="stat-cell">
-            <span class="stat-number gold" id="court-count">9</span>
+            <span class="stat-number gold" id="court-count">11</span>
             <span class="stat-label">Federal Courts</span>
         </div>
         <div class="stat-cell">
@@ -532,9 +532,31 @@
             </tbody>
         </table>
 
-        <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 24px; text-align: center;">This list updates as new cases are donated. All documents are available immediately on <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a>.</p>
+        <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 24px; text-align: center;">Showing 549 donated cases across 11 federal courts. All documents are available immediately on <a href="https://www.courtlistener.com/" target="_blank" rel="noopener">CourtListener</a>.</p>
     </div>
 </section>
+
+<script>
+// Load full case data dynamically
+fetch('recap-data.json').then(r=>r.json()).then(data=>{
+    const tbody = document.querySelector('.case-table tbody');
+    if(!tbody || !data.cases) return;
+    tbody.innerHTML = '';
+    data.cases.forEach(c=>{
+        const row = document.createElement('tr');
+        const isVCS = c.num === '24-40010';
+        row.innerHTML = `
+            <td><a href="https://www.courtlistener.com/docket/?q=${c.num}&type=r" target="_blank" rel="noopener">${c.num}</a></td>
+            <td><span class="court-badge">${c.court}</span></td>
+            <td>${c.chapter}</td>
+            <td class="doc-count">${c.docs}</td>
+            <td>${c.status}</td>
+        `;
+        tbody.appendChild(row);
+    });
+    document.getElementById('case-count').textContent = data.total;
+}).catch(()=>{});
+</script>
 
 <section style="padding:72px 0;border-bottom:1px solid var(--border)">
     <div class="container">
