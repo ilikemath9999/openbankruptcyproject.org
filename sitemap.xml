@@ -481,6 +481,42 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://openbankruptcyproject.org/hub-after-bankruptcy.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://openbankruptcyproject.org/hub-after-bankruptcy-es.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://openbankruptcyproject.org/hub-attorney-quality.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://openbankruptcyproject.org/hub-attorney-quality-es.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://openbankruptcyproject.org/hub-protect-assets.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://openbankruptcyproject.org/hub-protect-assets-es.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://openbankruptcyproject.org/impact.html</loc>
     <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
