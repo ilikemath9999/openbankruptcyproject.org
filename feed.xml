@@ -15,6 +15,116 @@
   <logo>/og-image.svg</logo>
 
   <entry>
+    <title>What Happens to Your Bank Account in Bankruptcy?</title>
+    <link href="https://openbankruptcyproject.org/blog/what-happens-to-your-bank-account-in-bankruptcy.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/blog/what-happens-to-your-bank-account-in-bankruptcy.html</id>
+    <published>2026-04-09T12:00:00Z</published>
+    <updated>2026-04-09T12:00:00Z</updated>
+    <summary>Your bank accounts are not automatically frozen in bankruptcy, but the trustee can access non-exempt funds. Learn about exemptions, set-off risk, and practical tips.</summary>
+    <author><name>Open Bankruptcy Project</name></author>
+    <category term="Blog"/>
+  </entry>
+
+  <entry>
+    <title>Does Bankruptcy Affect Your Spouse?</title>
+    <link href="https://openbankruptcyproject.org/blog/does-bankruptcy-affect-your-spouse.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/blog/does-bankruptcy-affect-your-spouse.html</id>
+    <published>2026-04-09T12:00:00Z</published>
+    <updated>2026-04-09T12:00:00Z</updated>
+    <summary>Filing bankruptcy does not automatically affect your spouse, but co-signed debts, joint accounts, and community property create important exceptions.</summary>
+    <author><name>Open Bankruptcy Project</name></author>
+    <category term="Blog"/>
+  </entry>
+
+  <entry>
+    <title>How Much Debt Do You Need to File Bankruptcy?</title>
+    <link href="https://openbankruptcyproject.org/blog/how-much-debt-to-file-bankruptcy.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/blog/how-much-debt-to-file-bankruptcy.html</id>
+    <published>2026-04-09T12:00:00Z</published>
+    <updated>2026-04-09T12:00:00Z</updated>
+    <summary>There is no minimum debt requirement to file bankruptcy, but practical thresholds and the means test determine whether it makes financial sense.</summary>
+    <author><name>Open Bankruptcy Project</name></author>
+    <category term="Blog"/>
+  </entry>
+
+  <entry>
+    <title>Bankruptcy vs Debt Settlement: Which Is Better?</title>
+    <link href="https://openbankruptcyproject.org/blog/bankruptcy-vs-debt-settlement.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/blog/bankruptcy-vs-debt-settlement.html</id>
+    <published>2026-04-09T12:00:00Z</published>
+    <updated>2026-04-09T12:00:00Z</updated>
+    <summary>A side-by-side comparison of bankruptcy and debt settlement covering cost, timeline, credit impact, and when each approach makes the most sense.</summary>
+    <author><name>Open Bankruptcy Project</name></author>
+    <category term="Blog"/>
+  </entry>
+
+  <entry>
+    <title>Can I Keep My Tax Refund in Bankruptcy?</title>
+    <link href="https://openbankruptcyproject.org/blog/can-i-keep-my-tax-refund-in-bankruptcy.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/blog/can-i-keep-my-tax-refund-in-bankruptcy.html</id>
+    <published>2026-04-09T12:00:00Z</published>
+    <updated>2026-04-09T12:00:00Z</updated>
+    <summary>Whether you can keep your tax refund depends on the chapter, timing, and your state's exemption laws.</summary>
+    <author><name>Open Bankruptcy Project</name></author>
+    <category term="Blog"/>
+  </entry>
+
+  <entry>
+    <title>What Debts Survive Bankruptcy?</title>
+    <link href="https://openbankruptcyproject.org/blog/what-debts-survive-bankruptcy.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/blog/what-debts-survive-bankruptcy.html</id>
+    <published>2026-04-09T12:00:00Z</published>
+    <updated>2026-04-09T12:00:00Z</updated>
+    <summary>Most debts are discharged in bankruptcy, but some survive. A plain-language guide to Section 523(a) and nondischargeable debts.</summary>
+    <author><name>Open Bankruptcy Project</name></author>
+    <category term="Blog"/>
+  </entry>
+
+  <entry>
+    <title>How Long Does Chapter 7 Take?</title>
+    <link href="https://openbankruptcyproject.org/blog/how-long-does-chapter-7-take.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/blog/how-long-does-chapter-7-take.html</id>
+    <published>2026-04-09T12:00:00Z</published>
+    <updated>2026-04-09T12:00:00Z</updated>
+    <summary>Most Chapter 7 cases go from filing to discharge in about 3 to 4 months. Here is the timeline, milestone by milestone.</summary>
+    <author><name>Open Bankruptcy Project</name></author>
+    <category term="Blog"/>
+  </entry>
+
+  <entry>
+    <title>What Is a Bankruptcy Trustee?</title>
+    <link href="https://openbankruptcyproject.org/blog/what-is-a-bankruptcy-trustee.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/blog/what-is-a-bankruptcy-trustee.html</id>
+    <published>2026-04-09T12:00:00Z</published>
+    <updated>2026-04-09T12:00:00Z</updated>
+    <summary>Bankruptcy trustees play different roles depending on the chapter. Learn what Chapter 7 and Chapter 13 trustees actually do.</summary>
+    <author><name>Open Bankruptcy Project</name></author>
+    <category term="Blog"/>
+  </entry>
+
+  <entry>
+    <title>Can You File Bankruptcy More Than Once?</title>
+    <link href="https://openbankruptcyproject.org/blog/can-you-file-bankruptcy-more-than-once.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/blog/can-you-file-bankruptcy-more-than-once.html</id>
+    <published>2026-04-09T12:00:00Z</published>
+    <updated>2026-04-09T12:00:00Z</updated>
+    <summary>Yes, but waiting periods apply. Complete guide to 727(a)(8), 1328(f), and cross-chapter refiling timelines.</summary>
+    <author><name>Open Bankruptcy Project</name></author>
+    <category term="Blog"/>
+  </entry>
+
+  <entry>
+    <title>What Happens When Chapter 13 Is Dismissed?</title>
+    <link href="https://openbankruptcyproject.org/blog/what-happens-when-chapter-13-is-dismissed.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/blog/what-happens-when-chapter-13-is-dismissed.html</id>
+    <published>2026-04-09T12:00:00Z</published>
+    <updated>2026-04-09T12:00:00Z</updated>
+    <summary>Dismissal ends bankruptcy protection and lets creditors resume collections. Learn the consequences and how Section 109(g) may affect refiling.</summary>
+    <author><name>Open Bankruptcy Project</name></author>
+    <category term="Blog"/>
+  </entry>
+
+  <entry>
     <title>Open Bankruptcy Project Launches 160+ Free Bankruptcy Resources Nationwide</title>
     <link href="https://openbankruptcyproject.org/news/btn-network-launch-2026.html" rel="alternate" type="text/html"/>
     <id>https://openbankruptcyproject.org/news/btn-network-launch-2026.html</id>

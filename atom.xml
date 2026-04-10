@@ -140,4 +140,18 @@
     <category term="Pro Se"/>
   </entry>
 
+
+  <entry>
+    <title>Bankruptcy Filing Statistics: April 2026 Data Roundup</title>
+    <link href="https://openbankruptcyproject.org/blog/data-roundup-april-2026.html" rel="alternate" type="text/html"/>
+    <id>https://openbankruptcyproject.org/blog/data-roundup-april-2026.html</id>
+    <published>2026-04-09T12:00:00Z</published>
+    <updated>2026-04-09T12:00:00Z</updated>
+    <summary>Monthly data roundup covering 1,926 bankruptcy filings across 12 federal districts. Year-over-year change: -80.2%.</summary>
+    <author>
+      <name>Open Bankruptcy Project</name>
+    </author>
+    <category term="Data"/>
+    <category term="Statistics"/>
+  </entry>
 </feed>
