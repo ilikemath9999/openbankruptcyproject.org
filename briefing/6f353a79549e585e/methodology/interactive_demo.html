@@ -183,9 +183,9 @@ button:disabled { background: #999; cursor: not-allowed; }
 <p>This demo runs the exact same screening logic used in the national <a href="https://1328f.com/" title="Section 1328(f)">1328(f)</a> analysis. It operates on a small anonymized sample dataset (70 cases, 30 debtors) embedded in this page. Click "Run Screening" to execute the algorithm in your browser.</p>
 
 <h3>Statutory Framework</h3>
-<div class="code">11 U.S.C. 1328(f):
+<div class="code">11 U.S.C. <a href="https://1328f.com/" title="Section 1328(f)">1328(f)</a>:
 
-(f)(1): No <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> if debtor received a discharge in a case filed under
+(f)(1): No <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> if debtor received a <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> in a case filed under
         <a href="https://whatischapter7.com/" title="Chapter 7">chapter 7</a>, 11, or 12 within 4 YEARS before the current Ch.13 filing.
 
 (f)(2): No discharge if debtor received a discharge in a case filed under
@@ -268,7 +268,7 @@ Key: The window runs from PRIOR FILING DATE to CURRENT FILING DATE.
 <ul style="margin: 8px 0 0 20px; font-size: 13px;">
 <li><strong>Name matching:</strong> Debtor names are normalized (lowercased, suffixes like Jr./Sr./III stripped, "NMN" removed). Joint cases ("A and B") produce two name keys each.</li>
 <li><strong>Date gap:</strong> Measured from prior case filing date to current Ch.13 filing date. NOT from discharge date. This follows the majority interpretation per <em>In re Blendheim</em>.</li>
-<li><strong>BAPCPA filter:</strong> Only Ch.13 cases filed on or after October 17, 2005 are screened. 1328(f) did not exist before BAPCPA.</li>
+<li><strong><a href="https://1328f.com/glossary.html#bapcpa" title="BAPCPA">BAPCPA</a> filter:</strong> Only Ch.13 cases filed on or after October 17, 2005 are screened. 1328(f) did not exist before BAPCPA.</li>
 <li><strong>43% bar rate:</strong> In the national FJC analysis, we estimate that 43% of prior-filer discharges involve gaps within the statutory window. This demo checks exact gaps, so it finds the precise violations in the sample.</li>
 <li><strong>No false positives from name collisions:</strong> This sample uses unique debtor labels (Debtor_001, etc.) to eliminate name collision risk. In real data, fuzzy name matching introduces a small false positive rate (~2-3%) which is addressed by manual verification on flagged cases.</li>
 </ul>
