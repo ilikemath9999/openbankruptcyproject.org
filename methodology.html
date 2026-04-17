@@ -1,35 +1,34 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="referrer" content="no-referrer-when-downgrade">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
 <title>Methodology - How We Analyze 4.9 Million Bankruptcy Cases | Open Bankruptcy Project</title>
-<meta name="description" content="Our research methodology: how the Open Bankruptcy Project collects, cleans, and analyzes 4.9 million federal bankruptcy cases across 94 districts using open-source tools. Peer-reviewed by academic researchers.">
-<meta name="keywords" content="bankruptcy data methodology, bankruptcy research methods, court data analysis, FJC Integrated Database, reproducible research, open source bankruptcy">
-<link rel="canonical" href="https://openbankruptcyproject.org/methodology.html">
-<meta property="og:title" content="Methodology - How We Analyze 4.9 Million Bankruptcy Cases">
-<meta property="og:description" content="Our research methodology: FJC Integrated Database, 4.9M cases, 94 districts, open-source tools, academic peer review. Every finding is reproducible.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://openbankruptcyproject.org/methodology.html">
-<meta property="og:site_name" content="Open Bankruptcy Project">
-<meta property="og:image" content="/og-image.svg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Methodology - How We Analyze 4.9 Million Bankruptcy Cases">
-<meta name="twitter:description" content="Our research methodology: FJC Integrated Database, 4.9M cases, 94 districts, open-source tools, academic peer review. Every finding is reproducible.">
-<meta name="twitter:image" content="/og-image.svg">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<meta name="theme-color" content="#0d1117">
-<link rel="alternate" hreflang="en" href="https://openbankruptcyproject.org/methodology.html">
-<link rel="alternate" hreflang="es" href="https://openbankruptcyproject.org/methodology-es.html">
-
+<meta content="Our research methodology: how the Open Bankruptcy Project collects, cleans, and analyzes 4.9 million federal bankruptcy cases across 94 districts using open-source tools. Peer-reviewed by academic researchers." name="description"/>
+<meta content="bankruptcy data methodology, bankruptcy research methods, court data analysis, FJC Integrated Database, reproducible research, open source bankruptcy" name="keywords"/>
+<link href="https://openbankruptcyproject.org/methodology.html" rel="canonical"/>
+<meta content="Methodology - How We Analyze 4.9 Million Bankruptcy Cases" property="og:title"/>
+<meta content="Our research methodology: FJC Integrated Database, 4.9M cases, 94 districts, open-source tools, academic peer review. Every finding is reproducible." property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://openbankruptcyproject.org/methodology.html" property="og:url"/>
+<meta content="Open Bankruptcy Project" property="og:site_name"/>
+<meta content="/og-image.svg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Methodology - How We Analyze 4.9 Million Bankruptcy Cases" name="twitter:title"/>
+<meta content="Our research methodology: FJC Integrated Database, 4.9M cases, 94 districts, open-source tools, academic peer review. Every finding is reproducible." name="twitter:description"/>
+<meta content="/og-image.svg" name="twitter:image"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="#0d1117" name="theme-color"/>
+<link href="https://openbankruptcyproject.org/methodology.html" hreflang="en" rel="alternate"/>
+<link href="https://openbankruptcyproject.org/methodology-es.html" hreflang="es" rel="alternate"/>
 <!-- BTN:GA4:START -->
-<link rel="preconnect" href="https://www.googletagmanager.com">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());
   gtag('set', 'allow_ad_personalization_signals', false);gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');</script>
 <!-- BTN:GA4:END -->
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -138,7 +137,6 @@
   ]
 }
 </script>
-
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
@@ -244,285 +242,240 @@ footer p { margin-bottom: 6px; line-height: 1.6; }
 </style>
 </head>
 <body>
-
 <nav>
-  <div class="nav-inner">
-    <span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
-    <div class="nav-links">
-      <a href="/">Home</a>
-      <a href="/about.html">About</a>
-      <a href="/research.html">Research</a>
-      <a href="/methodology.html" class="active">Methodology</a>
-      <a href="/citations.html">Citations</a>
-      <a href="/press.html">Press</a>
-      <a href="/contact.html">Contact</a>
-    </div>
-  </div>
-</nav>
-
-<div class="page-header">
-  <div class="container">
-    <h1>Research Methodology</h1>
-    <p class="subtitle">How we process 4.9 million federal bankruptcy cases across 94 districts to produce reliable, reproducible research - and how academics and journalists can verify every finding.</p>
-  </div>
+<div class="nav-inner">
+<span class="nav-brand"><a href="/">Open Bankruptcy Project</a></span>
+<div class="nav-links">
+<a href="/">Home</a>
+<a href="/about.html">About</a>
+<a href="/research.html">Research</a>
+<a class="active" href="/methodology.html">Methodology</a>
+<a href="/citations.html">Citations</a>
+<a href="/press.html">Press</a>
+<a href="/contact.html">Contact</a>
 </div>
-
+</div>
+</nav>
+<div class="page-header">
+<div class="container">
+<h1>Research Methodology</h1>
+<p class="subtitle">How we process 4.9 million federal bankruptcy cases across 94 districts to produce reliable, reproducible research - and how academics and journalists can verify every finding.</p>
+</div>
+</div>
 <main id="main-content">
-<nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="https://openbankruptcyproject.org/">Home</a><span class="separator">&rsaquo;</span><span>Methodology</span></nav>
-
+<nav aria-label="Breadcrumb" class="breadcrumb-nav"><a href="https://openbankruptcyproject.org/">Home</a><span class="separator">›</span><span>Methodology</span></nav>
 <div class="content">
-  <div class="container">
-
-    <div class="toc">
-      <h3>On This Page</h3>
-      <ol>
-        <li><a href="#data-sources">Data Sources</a></li>
-        <li><a href="#data-cleaning">Data Cleaning</a></li>
-        <li><a href="#pipeline">Processing Pipeline</a></li>
-        <li><a href="#statistical-methods">Statistical Methods</a></li>
-        <li><a href="#peer-review">Academic Validation</a></li>
-        <li><a href="#reproducibility">Reproducibility</a></li>
-        <li><a href="#limitations">Limitations and Caveats</a></li>
-        <li><a href="#faq">Frequently Asked Questions</a></li>
-      </ol>
-    </div>
-
-    <h2 id="data-sources">1. Data Sources</h2>
-
-    <h3>Primary: FJC Integrated Database</h3>
-    <p>Our primary dataset is the <a href="https://www.fjc.gov/research/idb" target="_blank" rel="noopener">Federal Judicial Center (FJC) Integrated Database</a>, the most comprehensive public source of federal bankruptcy filing data available. It contains filing-level records for cases across all 94 federal judicial districts.</p>
-
-    <table class="data-table">
-      <thead>
-        <tr><th>Attribute</th><th>Detail</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Total cases</td><td>4.9 million</td></tr>
-        <tr><td>Time span</td><td>2008 - 2024 (17 fiscal years)</td></tr>
-        <tr><td>Districts covered</td><td>All 94 federal judicial districts</td></tr>
-        <tr><td>Key fields</td><td>Filing date, chapter, district, disposition, debtor demographics, asset/liability totals, prior filing flags</td></tr>
-        <tr><td>Source</td><td>Administrative Office of the U.S. Courts via FJC</td></tr>
-        <tr><td>Update frequency</td><td>Annual (fiscal year basis)</td></tr>
-      </tbody>
-    </table>
-
-    <h3>Supplementary Sources</h3>
-    <ul>
-      <li><strong><a href="https://1328f.com/glossary.html#pacer" title="PACER">PACER</a> docket data</strong> - case-level docket entries, attorney records, and filed documents collected via the Public Access to Court Electronic Records system. Used for attorney-level analysis and specific case verification.</li>
-      <li><strong>RECAP Archive</strong> - free court documents contributed to the <a href="https://www.courtlistener.com/recap/" target="_blank" rel="noopener">Free Law Project's RECAP archive</a>. OBP has donated 492 cases and 3,007 files to date.</li>
-      <li><strong>Census Bureau</strong> - population data for per-capita filing rate calculations and demographic adjustments.</li>
-      <li><strong>Bureau of Labor Statistics</strong> - unemployment rates and economic indicators for contextual analysis.</li>
-    </ul>
-
-    <h2 id="data-cleaning">2. Data Cleaning Procedures</h2>
-    <p>Raw FJC data requires significant cleaning before analysis. Our multi-stage cleaning pipeline addresses known data quality issues:</p>
-
-    <h3>Court Identifier Standardization</h3>
-    <p>The FJC uses numeric district codes that have changed over time. We maintain a mapping table that resolves all historical code variations to consistent, current district identifiers (e.g., "Western District of Missouri" regardless of whether the record uses the pre-2010 or post-2010 FJC code).</p>
-
-    <h3>Attorney and Firm Name Normalization</h3>
-    <p>Attorney names in court records contain abbreviations, misspellings, and formatting inconsistencies. We apply fuzzy matching algorithms with manual review thresholds to consolidate name variants (e.g., "Wm Law" / "WM Law LLC" / "W.M. Law, L.L.C." all resolve to the same entity). Firm name normalization follows the same process.</p>
-
-    <h3>Record Deduplication</h3>
-    <p>Cases that appear in multiple fiscal-year data dumps are deduplicated using a composite key of district, case number, and filing date. Multi-district filings are tracked but counted once in national totals.</p>
-
-    <h3>Integrity Validation</h3>
-    <p>Automated checks flag records with impossible field combinations (e.g., a <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> case listing a <a href="https://chapter13plan.org/" title="confirmation">plan confirmation</a> date), missing required fields, or dates outside expected ranges. Flagged records are reviewed manually or excluded with documentation.</p>
-
-    <div class="callout green">
-      <p><strong>All cleaning code is open-source.</strong> Every transformation applied to the raw data is documented in our GitHub repository. You can review, audit, or suggest improvements to any cleaning step.</p>
-    </div>
-
-    <h2 id="pipeline">3. Processing Pipeline</h2>
-    <p>From raw FJC download to published finding, data flows through these stages:</p>
-
-    <div class="pipeline-step">
-      <div class="pipeline-num">1</div>
-      <div class="pipeline-text"><strong>Ingest:</strong> Raw FJC CSV files are loaded into a SQLite database (bankruptcy_master.db). Schema enforces type constraints and referential integrity.</div>
-    </div>
-    <div class="pipeline-step">
-      <div class="pipeline-num">2</div>
-      <div class="pipeline-text"><strong>Clean:</strong> Standardization scripts normalize court codes, attorney names, firm names, and disposition codes. Deduplication removes multi-year overlaps.</div>
-    </div>
-    <div class="pipeline-step">
-      <div class="pipeline-num">3</div>
-      <div class="pipeline-text"><strong>Enrich:</strong> <a href="https://1328f.com/glossary.html#pacer" title="PACER">PACER</a> data supplements FJC records with attorney-level detail, docket entries, and filed documents. Census and BLS data are joined for per-capita and economic context.</div>
-    </div>
-    <div class="pipeline-step">
-      <div class="pipeline-num">4</div>
-      <div class="pipeline-text"><strong>Analyze:</strong> Python scripts compute metrics: completion rates, comparative district rankings, outlier detection, regression models. Each script is self-contained with documented inputs and outputs.</div>
-    </div>
-    <div class="pipeline-step">
-      <div class="pipeline-num">5</div>
-      <div class="pipeline-text"><strong>Validate:</strong> Results are cross-checked against known benchmarks (published ABI statistics, FJC annual reports, academic literature). Anomalies trigger manual review.</div>
-    </div>
-    <div class="pipeline-step">
-      <div class="pipeline-num">6</div>
-      <div class="pipeline-text"><strong>Publish:</strong> Verified findings are published with full methodological notes, dataset version, and links to the generating scripts.</div>
-    </div>
-
-    <h2 id="statistical-methods">4. Statistical Methods</h2>
-
-    <h3>Core Metrics</h3>
-    <ul>
-      <li><strong>Completion rates:</strong> Cases reaching <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> divided by total cases filed, calculated per district, per attorney, per chapter, and per time period.</li>
-      <li><strong>Per-capita filing rates:</strong> Filings per 100,000 population, using Census Bureau estimates for the filing year.</li>
-      <li><strong>Prior-filer rates:</strong> Percentage of filers in a given district or attorney's caseload who have filed at least one prior bankruptcy case within the statutory lookback period.</li>
-    </ul>
-
-    <h3>Comparative Analysis</h3>
-    <ul>
-      <li><strong>District comparisons:</strong> Ranking all 94 districts on key metrics with percentile scores and confidence intervals.</li>
-      <li><strong>Attorney scorecards:</strong> Multi-factor profiles comparing individual attorneys or firms against district and national benchmarks.</li>
-      <li><strong>Time-series analysis:</strong> Year-over-year trends with seasonal adjustment where appropriate.</li>
-    </ul>
-
-    <h3>Outlier Detection</h3>
-    <ul>
-      <li><strong>Z-scores:</strong> Standard deviations from the mean for continuous metrics (filing rates, completion rates, fee levels).</li>
-      <li><strong>Percentile rankings:</strong> Position within the national distribution for each metric.</li>
-      <li><strong>Composite scoring:</strong> Multi-factor "mill probability" scores combining several indicators, with transparent weighting.</li>
-    </ul>
-
-    <h3>What We Do Not Do</h3>
-    <p>We do not impute missing data. We do not extrapolate beyond the dataset's time range. We do not make causal claims without appropriate statistical support - correlation between attorney behavior and case outcomes is reported as correlation, not causation. We do not cherry-pick favorable findings; when results are mixed or inconclusive, we say so.</p>
-
-    <h2 id="peer-review">5. Academic Validation</h2>
-
-    <div class="callout gold">
-      <p><strong>Our methodology has been reviewed by researchers at multiple institutions.</strong> While OBP is not an academic journal and our work has not undergone formal double-blind peer review, we have actively sought and received critical feedback from established scholars in empirical legal studies.</p>
-    </div>
-
-    <h3>Faculty Engagement</h3>
-    <ul>
-      <li><strong>UC Berkeley School of Law</strong> - Faculty reviewed the core methodology, including the <a href="https://1328f.com/" title="Section 1328(f)">1328(f)</a> screening approach and prior-filer analysis. No methodological red flags were identified. The reviewer noted the approach was consistent with standard empirical legal research methods and suggested additional data sources (including AACER) for future work.</li>
-      <li><strong>Georgia State University College of Law</strong> - Faculty in computational legal studies reviewed the data pipeline and expressed interest in integration with academic research infrastructure. The reviewer noted potential for co-authorship and expansion into longitudinal outcome studies.</li>
-    </ul>
-
-    <h3>Federal Rules Committee</h3>
-    <p>Our empirical findings form the basis for <a href="https://www.uscourts.gov/rules-policies/records-and-archives-rules-committees/rules-suggestions" target="_blank" rel="noopener">Suggestion 26-BK-3</a>, submitted to the Advisory Committee on Bankruptcy Rules and accepted in March 2026. The suggestion proposes automated screening of statutory <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> bars at the point of case filing. It is currently listed as "pending consideration" by the Committee.</p>
-
-    <h3>Open Invitation</h3>
-    <p>We actively invite academic scrutiny. Researchers can access our complete codebase, reproduce any finding, and contact us at <a href="mailto:research@openbankruptcyproject.org">research@openbankruptcyproject.org</a> with questions, corrections, or collaboration proposals. See our <a href="/researchers.html">Researchers page</a> for data access details.</p>
-
-    <h2 id="reproducibility">6. Reproducibility</h2>
-
-    <p>Every analysis we publish includes:</p>
-    <ul>
-      <li>The specific SQL queries or Python scripts used to generate findings</li>
-      <li>The dataset version, date range, and any filtering criteria applied</li>
-      <li>The statistical methods, thresholds, and parameters used</li>
-      <li>The complete results - including null results and findings that cut against our hypotheses</li>
-    </ul>
-
-    <h3>Open-Source Toolchain</h3>
-    <table class="data-table">
-      <thead>
-        <tr><th>Component</th><th>Technology</th><th>Availability</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Analysis scripts</td><td>Python 3 (347+ scripts)</td><td><a href="https://github.com/openbankruptcyproject" target="_blank" rel="noopener">GitHub</a></td></tr>
-        <tr><td>Database</td><td>SQLite (4.9M records)</td><td>Reproducible from FJC source</td></tr>
-        <tr><td>Screening tools</td><td>Static HTML/JS (client-side)</td><td>GitHub Pages (live)</td></tr>
-        <tr><td>Data visualization</td><td>Python + static HTML</td><td>GitHub</td></tr>
-        <tr><td>Primary data</td><td>FJC Integrated Database</td><td><a href="https://www.fjc.gov/research/idb" target="_blank" rel="noopener">fjc.gov</a> (public)</td></tr>
-      </tbody>
-    </table>
-
-    <div class="callout green">
-      <p><strong>Zero proprietary dependencies.</strong> Every tool in our pipeline uses freely available open-source software and publicly accessible data. No subscription, license, or institutional affiliation is required to reproduce our work.</p>
-    </div>
-
-    <h2 id="limitations">7. Limitations and Caveats</h2>
-
-    <p>We are transparent about what our data can and cannot tell us:</p>
-
-    <h3>Selection Bias</h3>
-    <p>The FJC captures only filed cases. We cannot observe people who needed bankruptcy protection but did not file, were unable to afford an attorney, or were deterred by the process. Our data therefore reflects the filing population, not the population in financial distress.</p>
-
-    <h3>Attorney Quality Inference</h3>
-    <p>We infer attorney quality from observable case outcomes: completion rates, <a href="https://dismissedbankruptcy.org/" title="dismissal">dismissal</a> rates, and compliance with statutory requirements. These are proxies, not direct measures of attorney competence. An attorney with low completion rates may serve clients with inherently more difficult cases. We note this limitation wherever we publish attorney-level findings.</p>
-
-    <h3>PACER Coverage</h3>
-    <p>PACER data requires case-by-case collection (manual or automated). Our PACER dataset is extensive but not comprehensive. We note which findings rely on PACER data and the coverage level for each analysis.</p>
-
-    <h3>Historical Data</h3>
-    <p>FJC data before 2008 uses different field definitions and coding schemes. We limit our primary analyses to 2008-2024 to maintain consistency, though we note where longer time series would be informative.</p>
-
-    <h3>Ecological Fallacy</h3>
-    <p>District-level statistics describe averages. Individual cases within any district may differ significantly from the district average. We avoid drawing individual-case conclusions from aggregate data.</p>
-
-    <h2 id="faq">8. Frequently Asked Questions</h2>
-
-    <div class="faq-item">
-      <div class="faq-q">Where does your data come from?</div>
-      <div class="faq-a">The Federal Judicial Center (FJC) Integrated Database, containing 4.9 million bankruptcy cases from 2008-2024 across all 94 federal districts. Supplemented with PACER docket data, Census Bureau demographics, and BLS economic indicators.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q">Can I independently verify your findings?</div>
-      <div class="faq-a">Yes. All analysis scripts are open-source on GitHub under the <a href="https://github.com/openbankruptcyproject" target="_blank" rel="noopener">openbankruptcyproject</a> organization. The FJC database is publicly available from fjc.gov. You can download the data, run our scripts, and reproduce any finding.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q">Has this methodology been peer reviewed?</div>
-      <div class="faq-a">It has been reviewed by faculty at UC Berkeley School of Law and Georgia State University College of Law. No methodological red flags were identified. However, we have not undergone formal double-blind academic peer review. We consider our work pre-publication empirical research and actively invite scrutiny.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q">Do you accept corrections?</div>
-      <div class="faq-a">Absolutely. If you find an error in our data or analysis, contact us at <a href="mailto:research@openbankruptcyproject.org">research@openbankruptcyproject.org</a>. We issue corrections promptly and credit reporters.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q">How often is the data updated?</div>
-      <div class="faq-a">FJC data is updated annually when new fiscal-year releases are published. PACER data is collected on an ongoing basis. Each analysis notes its specific data vintage.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q">What statutes do you screen for?</div>
-      <div class="faq-a">Our primary screening covers Sections <a href="https://1328f.com/" title="Section 1328(f)">1328(f)</a>, <a href="https://727a8.com/" title="Section 727(a)(8)">727(a)(8)</a>, and <a href="https://109g.org/" title="Section 109(g)">109(g)</a> of the Bankruptcy Code - the statutory discharge bars and filing restrictions based on prior case history. We also analyze completion rates, fee patterns, and attorney caseload metrics.</div>
-    </div>
-
-    <h2>Related Pages</h2>
-    <ul>
-      <li><a href="/research.html">Research Findings</a></li>
-      <li><a href="/researchers.html">For Researchers</a></li>
-      <li><a href="/data-access.html">Data Access</a></li>
-      <li><a href="/citations.html">Where OBP Has Been Cited</a></li>
-      <li><a href="/about.html">About the Organization</a></li>
-    </ul>
-
-    <p style="font-size:0.85rem;color:var(--text-muted);margin-top:32px">Last updated: April 2026. This page describes our research methodology. It is not legal advice.</p>
-
-  </div>
+<div class="container">
+<div class="toc">
+<h3>On This Page</h3>
+<ol>
+<li><a href="#data-sources">Data Sources</a></li>
+<li><a href="#data-cleaning">Data Cleaning</a></li>
+<li><a href="#pipeline">Processing Pipeline</a></li>
+<li><a href="#statistical-methods">Statistical Methods</a></li>
+<li><a href="#peer-review">Academic Validation</a></li>
+<li><a href="#reproducibility">Reproducibility</a></li>
+<li><a href="#limitations">Limitations and Caveats</a></li>
+<li><a href="#faq">Frequently Asked Questions</a></li>
+</ol>
+</div>
+<h2 id="data-sources">1. Data Sources</h2>
+<h3>Primary: FJC Integrated Database</h3>
+<p>Our primary dataset is the <a href="https://www.fjc.gov/research/idb" rel="noopener" target="_blank">Federal Judicial Center (FJC) Integrated Database</a>, the most comprehensive public source of federal bankruptcy filing data available. It contains filing-level records for cases across all 94 federal judicial districts.</p>
+<table class="data-table">
+<thead>
+<tr><th>Attribute</th><th>Detail</th></tr>
+</thead>
+<tbody>
+<tr><td>Total cases</td><td>4.9 million</td></tr>
+<tr><td>Time span</td><td>2008 - 2024 (17 fiscal years)</td></tr>
+<tr><td>Districts covered</td><td>All 94 federal judicial districts</td></tr>
+<tr><td>Key fields</td><td>Filing date, chapter, district, disposition, debtor demographics, asset/liability totals, prior filing flags</td></tr>
+<tr><td>Source</td><td>Administrative Office of the U.S. Courts via FJC</td></tr>
+<tr><td>Update frequency</td><td>Annual (fiscal year basis)</td></tr>
+</tbody>
+</table>
+<h3>Supplementary Sources</h3>
+<ul>
+<li><strong><a href="https://1328f.com/glossary.html#pacer" title="PACER">PACER</a> docket data</strong> - case-level docket entries, attorney records, and filed documents collected via the Public Access to Court Electronic Records system. Used for attorney-level analysis and specific case verification.</li>
+<li><strong>RECAP Archive</strong> - free court documents contributed to the <a href="https://www.courtlistener.com/recap/" rel="noopener" target="_blank">Free Law Project's RECAP archive</a>. OBP has donated 492 cases and 3,007 files to date.</li>
+<li><strong>Census Bureau</strong> - population data for per-capita filing rate calculations and demographic adjustments.</li>
+<li><strong>Bureau of Labor Statistics</strong> - unemployment rates and economic indicators for contextual analysis.</li>
+</ul>
+<h2 id="data-cleaning">2. Data Cleaning Procedures</h2>
+<p>Raw FJC data requires significant cleaning before analysis. Our multi-stage cleaning pipeline addresses known data quality issues:</p>
+<h3>Court Identifier Standardization</h3>
+<p>The FJC uses numeric district codes that have changed over time. We maintain a mapping table that resolves all historical code variations to consistent, current district identifiers (e.g., "Western District of Missouri" regardless of whether the record uses the pre-2010 or post-2010 FJC code).</p>
+<h3>Attorney and Firm Name Normalization</h3>
+<p>Attorney names in court records contain abbreviations, misspellings, and formatting inconsistencies. We apply fuzzy matching algorithms with manual review thresholds to consolidate name variants (e.g., "Wm Law" / "WM Law LLC" / "W.M. Law, L.L.C." all resolve to the same entity). Firm name normalization follows the same process.</p>
+<h3>Record Deduplication</h3>
+<p>Cases that appear in multiple fiscal-year data dumps are deduplicated using a composite key of district, case number, and filing date. Multi-district filings are tracked but counted once in national totals.</p>
+<h3>Integrity Validation</h3>
+<p>Automated checks flag records with impossible field combinations (e.g., a <a href="https://whatischapter7.com/" title="Chapter 7">Chapter 7</a> case listing a <a href="https://chapter13plan.org/" title="confirmation">plan confirmation</a> date), missing required fields, or dates outside expected ranges. Flagged records are reviewed manually or excluded with documentation.</p>
+<div class="callout green">
+<p><strong>All cleaning code is open-source.</strong> Every transformation applied to the raw data is documented in our GitHub repository. You can review, audit, or suggest improvements to any cleaning step.</p>
+</div>
+<h2 id="pipeline">3. Processing Pipeline</h2>
+<p>From raw FJC download to published finding, data flows through these stages:</p>
+<div class="pipeline-step">
+<div class="pipeline-num">1</div>
+<div class="pipeline-text"><strong>Ingest:</strong> Raw FJC CSV files are loaded into a SQLite database (bankruptcy_master.db). Schema enforces type constraints and referential integrity.</div>
+</div>
+<div class="pipeline-step">
+<div class="pipeline-num">2</div>
+<div class="pipeline-text"><strong>Clean:</strong> Standardization scripts normalize court codes, attorney names, firm names, and disposition codes. Deduplication removes multi-year overlaps.</div>
+</div>
+<div class="pipeline-step">
+<div class="pipeline-num">3</div>
+<div class="pipeline-text"><strong>Enrich:</strong> <a href="https://1328f.com/glossary.html#pacer" title="PACER">PACER</a> data supplements FJC records with attorney-level detail, docket entries, and filed documents. Census and BLS data are joined for per-capita and economic context.</div>
+</div>
+<div class="pipeline-step">
+<div class="pipeline-num">4</div>
+<div class="pipeline-text"><strong>Analyze:</strong> Python scripts compute metrics: completion rates, comparative district rankings, outlier detection, regression models. Each script is self-contained with documented inputs and outputs.</div>
+</div>
+<div class="pipeline-step">
+<div class="pipeline-num">5</div>
+<div class="pipeline-text"><strong>Validate:</strong> Results are cross-checked against known benchmarks (published ABI statistics, FJC annual reports, academic literature). Anomalies trigger manual review.</div>
+</div>
+<div class="pipeline-step">
+<div class="pipeline-num">6</div>
+<div class="pipeline-text"><strong>Publish:</strong> Verified findings are published with full methodological notes, dataset version, and links to the generating scripts.</div>
+</div>
+<h2 id="statistical-methods">4. Statistical Methods</h2>
+<h3>Core Metrics</h3>
+<ul>
+<li><strong>Completion rates:</strong> Cases reaching <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> divided by total cases filed, calculated per district, per attorney, per chapter, and per time period.</li>
+<li><strong>Per-capita filing rates:</strong> Filings per 100,000 population, using Census Bureau estimates for the filing year.</li>
+<li><strong>Prior-filer rates:</strong> Percentage of filers in a given district or attorney's caseload who have filed at least one prior bankruptcy case within the statutory lookback period.</li>
+</ul>
+<h3>Comparative Analysis</h3>
+<ul>
+<li><strong>District comparisons:</strong> Ranking all 94 districts on key metrics with percentile scores and confidence intervals.</li>
+<li><strong>Attorney scorecards:</strong> Multi-factor profiles comparing individual attorneys or firms against district and national benchmarks.</li>
+<li><strong>Time-series analysis:</strong> Year-over-year trends with seasonal adjustment where appropriate.</li>
+</ul>
+<h3>Outlier Detection</h3>
+<ul>
+<li><strong>Z-scores:</strong> Standard deviations from the mean for continuous metrics (filing rates, completion rates, fee levels).</li>
+<li><strong>Percentile rankings:</strong> Position within the national distribution for each metric.</li>
+<li><strong>Composite scoring:</strong> Multi-factor "mill probability" scores combining several indicators, with transparent weighting.</li>
+</ul>
+<h3>What We Do Not Do</h3>
+<p>We do not impute missing data. We do not extrapolate beyond the dataset's time range. We do not make causal claims without appropriate statistical support - correlation between attorney behavior and case outcomes is reported as correlation, not causation. We do not cherry-pick favorable findings; when results are mixed or inconclusive, we say so.</p>
+<h2 id="peer-review">5. Academic Validation</h2>
+<div class="callout gold">
+<p><strong>Our methodology has been reviewed by researchers at multiple institutions.</strong> While OBP is not an academic journal and our work has not undergone formal double-blind peer review, we have actively sought and received critical feedback from established scholars in empirical legal studies.</p>
+</div>
+<h3>Faculty Engagement</h3>
+<ul>
+<li><strong>UC Berkeley School of Law</strong> - Faculty reviewed the core methodology, including the <a href="https://1328f.com/" title="Section 1328(f)">1328(f)</a> screening approach and prior-filer analysis. No methodological red flags were identified. The reviewer noted the approach was consistent with standard empirical legal research methods and suggested additional data sources (including AACER) for future work.</li>
+<li><strong>Georgia State University College of Law</strong> - Faculty in computational legal studies reviewed the data pipeline and expressed interest in integration with academic research infrastructure. The reviewer noted potential for co-authorship and expansion into longitudinal outcome studies.</li>
+</ul>
+<h3>Federal Rules Committee</h3>
+<p>Our empirical findings form the basis for <a href="https://www.uscourts.gov/rules-policies/records-and-archives-rules-committees/rules-suggestions" rel="noopener" target="_blank">Suggestion 26-BK-3</a>, submitted to the Advisory Committee on Bankruptcy Rules and accepted in March 2026. The suggestion proposes automated screening of statutory <a href="https://bankruptcydischarge.org/" title="discharge">discharge</a> bars at the point of case filing. It is currently listed as "pending consideration" by the Committee.</p>
+<h3>Open Invitation</h3>
+<p>We actively invite academic scrutiny. Researchers can access our complete codebase, reproduce any finding, and contact us at <a href="mailto:research@openbankruptcyproject.org">research@openbankruptcyproject.org</a> with questions, corrections, or collaboration proposals. See our <a href="/researchers.html">Researchers page</a> for data access details.</p>
+<h2 id="reproducibility">6. Reproducibility</h2>
+<p>Every analysis we publish includes:</p>
+<ul>
+<li>The specific SQL queries or Python scripts used to generate findings</li>
+<li>The dataset version, date range, and any filtering criteria applied</li>
+<li>The statistical methods, thresholds, and parameters used</li>
+<li>The complete results - including null results and findings that cut against our hypotheses</li>
+</ul>
+<h3>Open-Source Toolchain</h3>
+<table class="data-table">
+<thead>
+<tr><th>Component</th><th>Technology</th><th>Availability</th></tr>
+</thead>
+<tbody>
+<tr><td>Analysis scripts</td><td>Python 3 (347+ scripts)</td><td><a href="https://github.com/openbankruptcyproject" rel="noopener" target="_blank">GitHub</a></td></tr>
+<tr><td>Database</td><td>SQLite (4.9M records)</td><td>Reproducible from FJC source</td></tr>
+<tr><td>Screening tools</td><td>Static HTML/JS (client-side)</td><td>GitHub Pages (live)</td></tr>
+<tr><td>Data visualization</td><td>Python + static HTML</td><td>GitHub</td></tr>
+<tr><td>Primary data</td><td>FJC Integrated Database</td><td><a href="https://www.fjc.gov/research/idb" rel="noopener" target="_blank">fjc.gov</a> (public)</td></tr>
+</tbody>
+</table>
+<div class="callout green">
+<p><strong>Zero proprietary dependencies.</strong> Every tool in our pipeline uses freely available open-source software and publicly accessible data. No subscription, license, or institutional affiliation is required to reproduce our work.</p>
+</div>
+<h2 id="limitations">7. Limitations and Caveats</h2>
+<p>We are transparent about what our data can and cannot tell us:</p>
+<h3>Selection Bias</h3>
+<p>The FJC captures only filed cases. We cannot observe people who needed bankruptcy protection but did not file, were unable to afford an attorney, or were deterred by the process. Our data therefore reflects the filing population, not the population in financial distress.</p>
+<h3>Attorney Quality Inference</h3>
+<p>We infer attorney quality from observable case outcomes: completion rates, <a href="https://dismissedbankruptcy.org/" title="dismissal">dismissal</a> rates, and compliance with statutory requirements. These are proxies, not direct measures of attorney competence. An attorney with low completion rates may serve clients with inherently more difficult cases. We note this limitation wherever we publish attorney-level findings.</p>
+<h3>PACER Coverage</h3>
+<p>PACER data requires case-by-case collection (manual or automated). Our PACER dataset is extensive but not comprehensive. We note which findings rely on PACER data and the coverage level for each analysis.</p>
+<h3>Historical Data</h3>
+<p>FJC data before 2008 uses different field definitions and coding schemes. We limit our primary analyses to 2008-2024 to maintain consistency, though we note where longer time series would be informative.</p>
+<h3>Ecological Fallacy</h3>
+<p>District-level statistics describe averages. Individual cases within any district may differ significantly from the district average. We avoid drawing individual-case conclusions from aggregate data.</p>
+<h2 id="faq">8. Frequently Asked Questions</h2>
+<div class="faq-item">
+<div class="faq-q">Where does your data come from?</div>
+<div class="faq-a">The <a href="https://www.fjc.gov/" rel="noopener" target="_blank">Federal Judicial Center</a> (FJC) Integrated Database, containing 4.9 million bankruptcy cases from 2008-2024 across all 94 federal districts. Supplemented with PACER docket data, Census Bureau demographics, and BLS economic indicators.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q">Can I independently verify your findings?</div>
+<div class="faq-a">Yes. All analysis scripts are open-source on GitHub under the <a href="https://github.com/openbankruptcyproject" rel="noopener" target="_blank">openbankruptcyproject</a> organization. The FJC database is publicly available from fjc.gov. You can download the data, run our scripts, and reproduce any finding.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q">Has this methodology been peer reviewed?</div>
+<div class="faq-a">It has been reviewed by faculty at UC Berkeley School of Law and Georgia State University College of Law. No methodological red flags were identified. However, we have not undergone formal double-blind academic peer review. We consider our work pre-publication empirical research and actively invite scrutiny.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q">Do you accept corrections?</div>
+<div class="faq-a">Absolutely. If you find an error in our data or analysis, contact us at <a href="mailto:research@openbankruptcyproject.org">research@openbankruptcyproject.org</a>. We issue corrections promptly and credit reporters.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q">How often is the data updated?</div>
+<div class="faq-a">FJC data is updated annually when new fiscal-year releases are published. PACER data is collected on an ongoing basis. Each analysis notes its specific data vintage.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q">What statutes do you screen for?</div>
+<div class="faq-a">Our primary screening covers Sections <a href="https://1328f.com/" title="Section 1328(f)">1328(f)</a>, <a href="https://727a8.com/" title="Section 727(a)(8)">727(a)(8)</a>, and <a href="https://109g.org/" title="Section 109(g)">109(g)</a> of the Bankruptcy Code - the statutory discharge bars and filing restrictions based on prior case history. We also analyze completion rates, fee patterns, and attorney caseload metrics.</div>
+</div>
+<h2>Related Pages</h2>
+<ul>
+<li><a href="/research.html">Research Findings</a></li>
+<li><a href="/researchers.html">For Researchers</a></li>
+<li><a href="/data-access.html">Data Access</a></li>
+<li><a href="/citations.html">Where OBP Has Been Cited</a></li>
+<li><a href="/about.html">About the Organization</a></li>
+</ul>
+<p style="font-size:0.85rem;color:var(--text-muted);margin-top:32px">Last updated: April 2026. This page describes our research methodology. It is not legal advice.</p>
+</div>
 </div>
 </main>
-
 <!-- BTN:FOOTER:START -->
 <footer>
-  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
-  <div class="container">
-    <div class="footer-links">
-      <a href="/">Home</a>
-      <a href="/about.html">About</a>
-      <a href="/research.html">Research</a>
-      <a href="/methodology.html">Methodology</a>
-      <a href="/citations.html">Citations</a>
-      <a href="/contact.html">Contact</a>
-      <a href="/privacy.html">Privacy</a>
-      <a href="/terms.html">Terms</a>
-      <a href="https://github.com/openbankruptcyproject" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://github.com/sponsors/openbankruptcyproject" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s" onmouseover="this.style.background='#9e2c6f'" onmouseout="this.style.background='#bf3989'">&hearts; Sponsor</a>
-    </div>
-    <p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization (determination pending).</p>
-    <p style="margin-top:8px">Our research was cited by the federal judiciary as <a href="https://www.uscourts.gov/rules-policies/records-and-archives-rules-committees/rules-suggestions" target="_blank" rel="noopener" style="color:var(--accent)">Suggestion 26-BK-3</a>.</p>
-  </div>
-  <p style="margin-top:16px;font-size:0.8rem">This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
+<p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+<div class="container">
+<div class="footer-links">
+<a href="/">Home</a>
+<a href="/about.html">About</a>
+<a href="/research.html">Research</a>
+<a href="/methodology.html">Methodology</a>
+<a href="/citations.html">Citations</a>
+<a href="/contact.html">Contact</a>
+<a href="/privacy.html">Privacy</a>
+<a href="/terms.html">Terms</a>
+<a href="https://github.com/openbankruptcyproject" rel="noopener" target="_blank">GitHub</a>
+<a href="https://github.com/sponsors/openbankruptcyproject" onmouseout="this.style.background='#bf3989'" onmouseover="this.style.background='#9e2c6f'" style="display:inline-block;background:#bf3989;color:#fff;padding:0.6rem 1.8rem;border-radius:6px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:background 0.2s">♥ Sponsor</a>
+</div>
+<p>Open Bankruptcy Project is a 501(c)(3) nonprofit organization (determination pending).</p>
+<p style="margin-top:8px">Our research was cited by the federal judiciary as <a href="https://www.uscourts.gov/rules-policies/records-and-archives-rules-committees/rules-suggestions" rel="noopener" style="color:var(--accent)" target="_blank">Suggestion 26-BK-3</a>.</p>
+</div>
+<p style="margin-top:16px;font-size:0.8rem">This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p>
 </footer>
 <!-- BTN:FOOTER:END -->
-
 <script>
 document.querySelectorAll('.faq-q').forEach(function(q){
   q.addEventListener('click',function(){this.parentElement.classList.toggle('open');});
 });
 </script>
-<script src="/btn-engage.js" defer></script>
-<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+<script defer="" src="/btn-engage.js"></script>
+<script defer="" src="https://openbankruptcyproject.org/btn-search.js"></script>
 </body>
 </html>

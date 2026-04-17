@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="noindex, nofollow">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="noindex, nofollow" name="robots"/>
 <title>1328(f) Screening Demo - Interactive Validation</title>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -44,8 +45,8 @@ button:disabled { background: #999; cursor: not-allowed; }
 
 .breadcrumb-nav{font-size:0.85rem;color:#8b949e;padding:0.5rem 0;max-width:900px;margin:0 auto}.breadcrumb-nav a{color:#58a6ff;text-decoration:none}.breadcrumb-nav a:hover{text-decoration:underline}.breadcrumb-nav .separator{margin:0 0.5rem;color:#484f58}
 </style>
-<link rel="preconnect" href="https://www.googletagmanager.com">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
+<link href="https://www.googletagmanager.com" rel="preconnect"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FTWLM223G7");gtag("config","G-053Z64N82F");</script>
 <script type="application/ld+json">
 {
@@ -164,24 +165,20 @@ button:disabled { background: #999; cursor: not-allowed; }
   ]
 }
 </script>
-<meta name="description" content="Learn about 1328(f) screening demo - interactive validation in our free 2026 guide. Clear explanations, real data, and practical steps.">
-<link rel="canonical" href="https://openbankruptcyproject.org/briefing/6f353a79549e585e/methodology/interactive_demo.html">
+<meta content="Learn about 1328(f) screening demo - interactive validation in our free 2026 guide. Clear explanations, real data, and practical steps." name="description"/>
+<link href="https://openbankruptcyproject.org/briefing/6f353a79549e585e/methodology/interactive_demo.html" rel="canonical"/>
 </head>
 <body>
 <div class="container">
-
 <header>
-<h1>Section 1328(f) Screening Demo</h1>
+<h1><a href="https://www.law.cornell.edu/uscode/text/11/1328#f_0" rel="noopener" target="_blank">Section 1328(f)</a> Screening Demo</h1>
 <p>Interactive validation of the <a href="https://dischargebar.org/" title="discharge bar">discharge bar</a> screening methodology</p>
 <p style="font-size:12px; color:#999; margin-top:4px;">Client-side only. No data leaves your browser. Open DevTools (F12) to inspect.</p>
 </header>
-<nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="https://1328f.org">Home</a><span class="separator">&rsaquo;</span><a href="https://openbankruptcyproject.org">1328(f) Screening Demo - Interactive Validation</a><span class="separator">&rsaquo;</span><span>Section 1328(f) Screening Demo</span></nav>
-
-
+<nav aria-label="Breadcrumb" class="breadcrumb-nav"><a href="https://1328f.org">Home</a><span class="separator">›</span><a href="https://openbankruptcyproject.org">1328(f) Screening Demo - Interactive Validation</a><span class="separator">›</span><span>Section 1328(f) Screening Demo</span></nav>
 <div class="card">
 <h2>How It Works</h2>
 <p>This demo runs the exact same screening logic used in the national <a href="https://1328f.com/" title="Section 1328(f)">1328(f)</a> analysis. It operates on a small anonymized sample dataset (70 cases, 30 debtors) embedded in this page. Click "Run Screening" to execute the algorithm in your browser.</p>
-
 <h3>Statutory Framework</h3>
 <div class="code">11 U.S.C. <a href="https://1328f.com/" title="Section 1328(f)">1328(f)</a>:
 
@@ -194,26 +191,22 @@ button:disabled { background: #999; cursor: not-allowed; }
 Key: The window runs from PRIOR FILING DATE to CURRENT FILING DATE.
      The prior case must have resulted in a discharge.
      See In re Blendheim, 803 F.3d 477 (9th Cir. 2015).</div>
-
 <h3>Algorithm Steps</h3>
 <ol style="margin: 8px 0 0 24px; font-size: 13px;">
 <li>Group cases by debtor name (normalized: lowercase, suffix-stripped)</li>
 <li>For each debtor with 2+ cases, find discharged cases and Ch.13 filings</li>
 <li>For each Ch.13 filing dated after Oct 17, 2005 (<a href="https://1328f.com/glossary.html#bapcpa" title="BAPCPA">BAPCPA</a> effective):</li>
 <li style="margin-left: 20px;">Check each prior discharged case's filing date</li>
-<li style="margin-left: 20px;">If prior was Ch.7/11/12 and gap <= 4 years: flag as (f)(1) violation</li>
-<li style="margin-left: 20px;">If prior was Ch.13 and gap <= 2 years: flag as (f)(2) violation</li>
+<li style="margin-left: 20px;">If prior was Ch.7/11/12 and gap &lt;= 4 years: flag as (f)(1) violation</li>
+<li style="margin-left: 20px;">If prior was Ch.13 and gap &lt;= 2 years: flag as (f)(2) violation</li>
 <li>Deduplicate hits by (prior_case, current_case, section)</li>
 </ol>
 </div>
-
 <div class="card" style="text-align:center;">
 <button id="run-btn" onclick="runScreening()">Run Screening on Sample Data</button>
-<div id="status" class="status info" style="display:none;"></div>
+<div class="status info" id="status" style="display:none;"></div>
 </div>
-
 <div id="results-area">
-
 <div class="card">
 <h2>Results Summary</h2>
 <div class="stat-grid">
@@ -224,17 +217,14 @@ Key: The window runs from PRIOR FILING DATE to CURRENT FILING DATE.
 <div class="stat-box"><div class="value" id="stat-f2">--</div><div class="label">(f)(2) Violations</div></div>
 </div>
 </div>
-
 <div class="card">
 <h2>Detailed Results</h2>
-
 <div class="tab-bar">
 <div class="tab active" onclick="switchTab('violations')">Violations Found</div>
 <div class="tab" onclick="switchTab('safe')">Safe Cases</div>
 <div class="tab" onclick="switchTab('all')">All Cases</div>
 </div>
-
-<div id="tab-violations" class="tab-content active">
+<div class="tab-content active" id="tab-violations">
 <table id="violations-table">
 <thead><tr>
 <th>Debtor</th><th>Prior Ch.</th><th>Prior Filed</th><th>Ch.13 Filed</th><th>Gap (days)</th><th>Window</th><th>Section</th>
@@ -242,8 +232,7 @@ Key: The window runs from PRIOR FILING DATE to CURRENT FILING DATE.
 <tbody></tbody>
 </table>
 </div>
-
-<div id="tab-safe" class="tab-content">
+<div class="tab-content" id="tab-safe">
 <table id="safe-table">
 <thead><tr>
 <th>Debtor</th><th>Prior Ch.</th><th>Prior Filed</th><th>Ch.13 Filed</th><th>Gap (days)</th><th>Window</th><th>Status</th>
@@ -251,8 +240,7 @@ Key: The window runs from PRIOR FILING DATE to CURRENT FILING DATE.
 <tbody></tbody>
 </table>
 </div>
-
-<div id="tab-all" class="tab-content">
+<div class="tab-content" id="tab-all">
 <table id="all-table">
 <thead><tr>
 <th>Case ID</th><th>Debtor</th><th>Chapter</th><th>Filed</th><th>Discharged</th><th>Dismissed</th>
@@ -260,9 +248,7 @@ Key: The window runs from PRIOR FILING DATE to CURRENT FILING DATE.
 <tbody></tbody>
 </table>
 </div>
-
 </div>
-
 <div class="card">
 <h2>Methodology Notes</h2>
 <ul style="margin: 8px 0 0 20px; font-size: 13px;">
@@ -273,16 +259,12 @@ Key: The window runs from PRIOR FILING DATE to CURRENT FILING DATE.
 <li><strong>No false positives from name collisions:</strong> This sample uses unique debtor labels (Debtor_001, etc.) to eliminate name collision risk. In real data, fuzzy name matching introduces a small false positive rate (~2-3%) which is addressed by manual verification on flagged cases.</li>
 </ul>
 </div>
-
 </div>
-
 <div class="footer">
-Open Bankruptcy Project - Methodology Validation Package<br>
+Open Bankruptcy Project - Methodology Validation Package<br/>
 All data is anonymized. No real case numbers, attorney names, or debtor names appear in this demo.
 </div>
-
 </div>
-
 <script>
 // Embedded sample dataset (anonymized)
 const SAMPLE_DATA = [
@@ -498,19 +480,19 @@ function runScreening() {
 }
 </script>
 <footer style="text-align:center;padding:20px;color:#8b949e;font-size:0.85rem">
-  <p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
+<p style="color:#e6edf3;margin:0 0 0.5rem;font-size:0.95rem">Free, open-source bankruptcy transparency. No ads. No affiliate links. Supported by donations.</p>
 <p>This site provides general information, not legal advice. Consult a qualified attorney for your specific situation.</p></footer>
 <!-- BOOST-TOP10 internal links (boost_internal_links.py) -->
 <div class="boost-top10" style="max-width:820px;margin:2rem auto;padding:1.5rem;background:#0d1117;border:1px solid #238636;border-radius:8px">
-  <p style="color:#f0f6fc;font-weight:700;font-size:1.05rem;margin:0 0 0.75rem 0">You May Also Find Helpful</p>
-  <ul style="list-style:none;padding:0;margin:0">
-    <li style="margin-bottom:0.5rem"><a href="https://chapter7vs13.org/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Chapter 7 vs. Chapter 13 Comparison</a> <span style="color:#7d8590;font-size:0.8rem">-- chapter7vs13.org</span></li>
-    <li style="margin-bottom:0.5rem"><a href="https://bankruptcymeanstest.org/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Bankruptcy Means Test by State</a> <span style="color:#7d8590;font-size:0.8rem">-- bankruptcymeanstest.org</span></li>
-    <li style="margin-bottom:0.5rem"><a href="https://727a8.com/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Section 727(a)(8) Discharge Waiting Period</a> <span style="color:#7d8590;font-size:0.8rem">-- 727a8.com</span></li>
-    <li style="margin-bottom:0.5rem"><a href="https://1099cdebt.com/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">1099-C Cancellation of Debt Tax Guide</a> <span style="color:#7d8590;font-size:0.8rem">-- 1099cdebt.com</span></li>
-    <li style="margin-bottom:0.5rem"><a href="https://bankruptcystudentloans.org/?utm_source=openbankruptcyproject.org&utm_medium=boost-top10&utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Student Loans in Bankruptcy</a> <span style="color:#7d8590;font-size:0.8rem">-- bankruptcystudentloans.org</span></li>
-  </ul>
+<p style="color:#f0f6fc;font-weight:700;font-size:1.05rem;margin:0 0 0.75rem 0">You May Also Find Helpful</p>
+<ul style="list-style:none;padding:0;margin:0">
+<li style="margin-bottom:0.5rem"><a href="https://chapter7vs13.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Chapter 7 vs. Chapter 13 Comparison</a> <span style="color:#7d8590;font-size:0.8rem">-- chapter7vs13.org</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://bankruptcymeanstest.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Bankruptcy Means Test by State</a> <span style="color:#7d8590;font-size:0.8rem">-- bankruptcymeanstest.org</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://727a8.com/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Section 727(a)(8) Discharge Waiting Period</a> <span style="color:#7d8590;font-size:0.8rem">-- 727a8.com</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://1099cdebt.com/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">1099-C Cancellation of Debt Tax Guide</a> <span style="color:#7d8590;font-size:0.8rem">-- 1099cdebt.com</span></li>
+<li style="margin-bottom:0.5rem"><a href="https://bankruptcystudentloans.org/?utm_source=openbankruptcyproject.org&amp;utm_medium=boost-top10&amp;utm_campaign=btn-network" style="color:#58a6ff;text-decoration:none;font-size:0.9rem">Student Loans in Bankruptcy</a> <span style="color:#7d8590;font-size:0.8rem">-- bankruptcystudentloans.org</span></li>
+</ul>
 </div>
-<script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+<script defer="" src="https://openbankruptcyproject.org/btn-search.js"></script>
 </body>
 </html>
