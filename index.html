@@ -232,8 +232,12 @@
             background: var(--surface);
             padding: 32px 20px;
             text-align: center;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: background 0.15s;
         }
-        .stat-cell:hover { background: var(--surface-hover); }
+        .stat-cell:hover { background: var(--surface-hover); text-decoration: none; }
         .stat-number {
             font-size: 1.75rem;
             font-weight: 800;
@@ -673,38 +677,38 @@
     <div class="container">
         <h2>By the Numbers</h2>
         <div class="stats-grid">
-            <div class="stat-cell">
+            <a class="stat-cell" href="https://1328f.com/">
                 <span class="stat-number accent">4,895,163</span>
                 <span class="stat-label">Cases Screened</span>
-            </div>
-            <div class="stat-cell">
+            </a>
+            <a class="stat-cell" href="https://bankruptcylawyerreview.org/districts/">
                 <span class="stat-number">94</span>
                 <span class="stat-label">Federal Districts</span>
-            </div>
-            <div class="stat-cell">
+            </a>
+            <a class="stat-cell" href="/research/26-bk-3/">
                 <span class="stat-number">391,951</span>
                 <span class="stat-label">Prior Filers with Zero<br>Eligibility Verification</span>
-            </div>
-            <div class="stat-cell">
+            </a>
+            <a class="stat-cell" href="#network">
                 <span class="stat-number">172</span>
                 <span class="stat-label">Educational Domains</span>
-            </div>
-            <div class="stat-cell">
+            </a>
+            <a class="stat-cell" href="/sitemap-index.xml">
                 <span class="stat-number">9,000+</span>
                 <span class="stat-label">Pages of Free Content</span>
-            </div>
-            <div class="stat-cell">
+            </a>
+            <a class="stat-cell" href="/about.html">
                 <span class="stat-number green">$0</span>
                 <span class="stat-label">Cost to Users</span>
-            </div>
-            <div class="stat-cell">
+            </a>
+            <a class="stat-cell" href="#rules">
                 <span class="stat-number gold">2</span>
                 <span class="stat-label">Federal Rules Committee<br>Suggestions Accepted</span>
-            </div>
-            <div class="stat-cell">
+            </a>
+            <a class="stat-cell" href="/about.html">
                 <span class="stat-number">501(c)(3)</span>
                 <span class="stat-label">Nonprofit<br>(Determination Pending)</span>
-            </div>
+            </a>
         </div>
     </div>
 </div>
