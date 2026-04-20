@@ -298,14 +298,14 @@ footer p { margin-bottom: 6px; line-height: 1.6; }
 <h3>Supplementary Sources</h3>
 <ul>
 <li><strong><a href="https://1328f.com/glossary.html#pacer" title="PACER">PACER</a> docket data</strong> - case-level docket entries, attorney records, and filed documents collected via the Public Access to Court Electronic Records system. Used for attorney-level analysis and specific case verification.</li>
-<li><strong>RECAP Archive</strong> - free court documents contributed to the <a href="https://www.courtlistener.com/recap/" rel="noopener" target="_blank">Free Law Project's RECAP archive</a>. OBP has donated 492 cases and 3,007 files to date.</li>
+<li><strong>RECAP Archive</strong> - free court documents contributed to the <a href="https://www.courtlistener.com/recap/" rel="noopener" target="_blank">Free Law Project's RECAP archive</a>. OBP has donated <a href="/cases/">492 cases</a> and 3,007 files to date.</li>
 <li><strong>Census Bureau</strong> - population data for per-capita filing rate calculations and demographic adjustments.</li>
 <li><strong>Bureau of Labor Statistics</strong> - unemployment rates and economic indicators for contextual analysis.</li>
 </ul>
 <h2 id="data-cleaning">2. Data Cleaning Procedures</h2>
 <p>Raw FJC data requires significant cleaning before analysis. Our multi-stage cleaning pipeline addresses known data quality issues:</p>
 <h3>Court Identifier Standardization</h3>
-<p>The FJC uses numeric district codes that have changed over time. We maintain a mapping table that resolves all historical code variations to consistent, current district identifiers (e.g., "Western District of Missouri" regardless of whether the record uses the pre-2010 or post-2010 FJC code).</p>
+<p>The FJC uses numeric district codes that have changed over time. We maintain a mapping table that resolves all historical code variations to consistent, current district identifiers (e.g., "<a href="/cases/mowbk/">Western District of Missouri</a>" regardless of whether the record uses the pre-2010 or post-2010 FJC code).</p>
 <h3>Attorney and Firm Name Normalization</h3>
 <p>Attorney names in court records contain abbreviations, misspellings, and formatting inconsistencies. We apply fuzzy matching algorithms with manual review thresholds to consolidate name variants (e.g., "Wm Law" / "WM Law LLC" / "W.M. Law, L.L.C." all resolve to the same entity). Firm name normalization follows the same process.</p>
 <h3>Record Deduplication</h3>
