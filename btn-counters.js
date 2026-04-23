@@ -7,9 +7,10 @@
  *
  * Usage in HTML:
  *   <span data-counter="domains">160+</span>
- *   <span data-counter="pages">10,000+</span>
+ *   <span data-counter="pages">13,000+</span>
  *   <span data-counter="spend_research">$508+</span>
- *   <span data-counter="recap_freed">462</span>
+ *   <span data-counter="recap_cases">549+</span>
+ *   <span data-counter="recap_documents">3,100+</span>
  *
  * Include once per site:
  *   <script defer src="https://openbankruptcyproject.org/btn-counters.js"></script>
