@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Suggestion 26-BK-5: Rule 9037 and Official Forms SSN Exposure -- Open Bankruptcy Project</title>
+<title>Suggestion 26-BK-5: Rule 9037 and Official Forms SSN Exposure - Open Bankruptcy Project</title>
 <meta content="Suggestion 26-BK-5, accepted by the Advisory Committee on Bankruptcy Rules and the Standing Committee on Rules of Practice and Procedure. Five proposed amendments to address systemic SSN exposure in federal court filings." name="description"/>
 <link href="https://openbankruptcyproject.org/research/26-bk-5/" rel="canonical"/>
 <link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
@@ -31,12 +31,9 @@
         "headline": "Suggestion 26-BK-5: Rule 9037 and Official Forms SSN Exposure",
         "description": "Formal suggestion to the Advisory Committee on Bankruptcy Rules and Standing Committee proposing five amendments to address systemic SSN exposure in federal court filings.",
         "author": {
-            "@type": "Person",
-            "name": "Dan Brown",
-            "affiliation": {
-                "@type": "Organization",
-                "name": "Open Bankruptcy Project"
-            }
+            "@type": "Organization",
+            "name": "Open Bankruptcy Project",
+            "url": "https://openbankruptcyproject.org"
         },
         "datePublished": "2026-04-16",
         "dateAccepted": "2026-04-16",
@@ -386,7 +383,27 @@
             .cta-btn { display: block; text-align: center; }
         }
     </style>
-<link rel="canonical" href="https://openbankruptcyproject.org/research/26-bk-5/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NonprofitOrganization",
+  "name": "Open Bankruptcy Project",
+  "alternateName": "OBP",
+  "url": "https://openbankruptcyproject.org",
+  "email": "info@openbankruptcyproject.org",
+  "taxID": "41-5159631",
+  "nonprofitStatus": "Nonprofit501c3",
+  "description": "The Open Bankruptcy Project is a 501(c)(3) nonprofit providing free tools, research, and consumer guides to help people navigate the federal bankruptcy system. We also conduct and publish empirical research on how the system actually works for consumers and share findings with rule-making bodies, regulators, and the public.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1000 W 100th St",
+    "addressLocality": "Kansas City",
+    "addressRegion": "MO",
+    "postalCode": "64114",
+    "addressCountry": "US"
+  }
+}
+</script>
 </head>
 <body>
 <nav>
@@ -426,7 +443,7 @@
 </tr>
 <tr>
 <th>Submitter</th>
-<td>Dan Brown, Open Bankruptcy Project</td>
+<td>Open Bankruptcy Project</td>
 </tr>
 <tr>
 <th>Date Accepted</th>
@@ -438,7 +455,7 @@
 </tr>
 <tr>
 <th>Subject</th>
-<td><a href="https://www.law.cornell.edu/rules/frbp/rule_9037" rel="noopener" target="_blank">Rule 9037</a>, Official Forms 121 and 309E1 -- SSN exposure in filed documents</td>
+<td><a href="https://www.law.cornell.edu/rules/frbp/rule_9037" rel="noopener" target="_blank">Rule 9037</a>, Official Forms 121 and 309E1 - SSN exposure in filed documents</td>
 </tr>
 </table>
 </section>
@@ -474,7 +491,7 @@
 <li>
 <span class="amendment-number">Amendment 4</span>
 <h3>Non-Cure Provision</h3>
-<p>Codify the principle that redaction after PACER publication does not remedy prior disclosure. Once a document has been publicly available on PACER -- even briefly -- the privacy breach has occurred. This provision would require courts to treat post-publication redaction as a mitigation measure, not a cure.</p>
+<p>Codify the principle that redaction after PACER publication does not remedy prior disclosure. Once a document has been publicly available on PACER - even briefly - the privacy breach has occurred. This provision would require courts to treat post-publication redaction as a mitigation measure, not a cure.</p>
 </li>
 <li>
 <span class="amendment-number">Amendment 5</span>
@@ -487,9 +504,9 @@
 <div class="section-label">Methodology</div>
 <h2>Detection Approach</h2>
 <p>The analysis employs PyMuPDF for text-layer extraction from PDF documents in the RECAP/CourtListener archive. The detection methodology identifies three categories of PII exposure:</p>
-<p><strong>1. Plain-text SSN exposure</strong> -- full nine-digit Social Security numbers present in the extractable text layer of filed documents.</p>
-<p><strong>2. Cosmetic redaction</strong> -- documents where SSNs appear visually redacted (black boxes or other overlay) but remain present in the underlying text layer. These are extractable by any PDF reader and are functionally unredacted.</p>
-<p><strong>3. PDF metadata exposure</strong> -- PII present in document metadata fields (author, title, subject, keywords) that persists even when the visible content has been properly redacted.</p>
+<p><strong>1. Plain-text SSN exposure</strong> - full nine-digit Social Security numbers present in the extractable text layer of filed documents.</p>
+<p><strong>2. Cosmetic redaction</strong> - documents where SSNs appear visually redacted (black boxes or other overlay) but remain present in the underlying text layer. These are extractable by any PDF reader and are functionally unredacted.</p>
+<p><strong>3. PDF metadata exposure</strong> - PII present in document metadata fields (author, title, subject, keywords) that persists even when the visible content has been properly redacted.</p>
 <p>The methodology was validated across documents from all 95 federal bankruptcy districts, using a combination of automated pattern detection and manual review of flagged documents.</p>
 </section>
 <section>
