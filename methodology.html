@@ -325,7 +325,7 @@ footer p { margin-bottom: 6px; line-height: 1.6; }
 <h3>Supplementary Sources</h3>
 <ul>
 <li><strong><a href="https://1328f.com/glossary.html#pacer" title="PACER">PACER</a> docket data</strong> - case-level docket entries, attorney records, and filed documents collected via the Public Access to Court Electronic Records system. Used for attorney-level analysis and specific case verification.</li>
-<li><strong>RECAP Archive</strong> - free court documents contributed to the <a href="https://www.courtlistener.com/recap/" rel="noopener" target="_blank">Free Law Project's RECAP archive</a>. OBP has donated <a href="/cases/">549+ cases</a> and 3,100+ files to date.</li>
+<li><strong>RECAP Archive</strong> - free court documents contributed to the <a href="https://www.courtlistener.com/recap/" rel="noopener" target="_blank">Free Law Project's RECAP archive</a>. OBP has donated <a href="/cases/"><span data-obp-c="recap_cases">549+</span> cases</a> and <span data-obp-c="recap_documents">3,100+</span> files to date.</li>
 <li><strong>Census Bureau</strong> - population data for per-capita filing rate calculations and demographic adjustments.</li>
 <li><strong>Bureau of Labor Statistics</strong> - unemployment rates and economic indicators for contextual analysis.</li>
 </ul>
@@ -504,5 +504,6 @@ document.querySelectorAll('.faq-q').forEach(function(q){
 </script>
 <script defer="" src="/btn-engage.js"></script>
 <script defer="" src="https://openbankruptcyproject.org/btn-search.js"></script>
+<script data-obp-counter-loader>(function(){var urls=["/data/counters.json","https://1328f.com/data/counters.json"];function tryNext(i){if(i>=urls.length)return;fetch(urls[i]).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){document.querySelectorAll("[data-obp-c]").forEach(function(e){var v=d[e.getAttribute("data-obp-c")];if(v)e.textContent=v})}).catch(function(){tryNext(i+1)})}tryNext(0)})();</script>
 </body>
 </html>

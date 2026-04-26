@@ -251,7 +251,7 @@ a:focus-visible,button:focus-visible{outline:2px solid #60a5fa;outline-offset:2p
 </div>
 <div class="section"><h2>Reform Efforts</h2>
 <p>The Free Law Project's RECAP extension archives PACER documents for free public access. The Open Courts Act (introduced multiple times in Congress) would eliminate most PACER fees. Our own PACER usage data shows the true cost of accessing court records for research.</p>
-<p>We donated 549+ cases and 3,100+ files to the RECAP archive. Every case we access benefits future researchers.</p>
+<p>We donated <span data-obp-c="recap_cases">549+</span> cases and <span data-obp-c="recap_documents">3,100+</span> files to the RECAP archive. Every case we access benefits future researchers.</p>
 </div>
 
 <div class="section"><h2>Frequently Asked Questions</h2>
@@ -347,5 +347,6 @@ document.querySelectorAll('.faq-q').forEach(function(q){
 </script>
 <script src="/btn-engage.js" defer></script>
 <script src="https://openbankruptcyproject.org/btn-search.js" defer></script>
+<script data-obp-counter-loader>(function(){var urls=["/data/counters.json","https://1328f.com/data/counters.json"];function tryNext(i){if(i>=urls.length)return;fetch(urls[i]).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){document.querySelectorAll("[data-obp-c]").forEach(function(e){var v=d[e.getAttribute("data-obp-c")];if(v)e.textContent=v})}).catch(function(){tryNext(i+1)})}tryNext(0)})();</script>
 </body>
 </html>
