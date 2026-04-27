@@ -2,68 +2,28 @@
   "total": 549,
   "cases": [
     {
-      "num": "25-21875",
-      "court": "S.D. Fla.",
+      "num": "05-47020",
+      "court": "E.D. Mo.",
       "chapter": "--",
-      "docs": "8",
+      "docs": "11",
       "status": "Donated",
-      "name": "25-21875"
+      "name": "05-47020"
     },
     {
-      "num": "09-40910",
-      "court": "M.D. Ga.",
+      "num": "05-71890",
+      "court": "W.D. Mo.",
       "chapter": "--",
-      "docs": "2",
+      "docs": "1",
       "status": "Donated",
-      "name": "09-40910"
+      "name": "05-71890"
     },
     {
-      "num": "06-63813",
-      "court": "N.D. Ga.",
+      "num": "05-71895",
+      "court": "W.D. Mo.",
       "chapter": "--",
-      "docs": "7",
+      "docs": "1",
       "status": "Donated",
-      "name": "06-63813"
-    },
-    {
-      "num": "09-84515",
-      "court": "N.D. Ga.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "09-84515"
-    },
-    {
-      "num": "24-59580",
-      "court": "N.D. Ga.",
-      "chapter": "--",
-      "docs": "27",
-      "status": "Donated",
-      "name": "24-59580"
-    },
-    {
-      "num": "24-61091",
-      "court": "N.D. Ga.",
-      "chapter": "--",
-      "docs": "25",
-      "status": "Donated",
-      "name": "24-61091"
-    },
-    {
-      "num": "08-04029",
-      "court": "N.D. Ill.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "08-04029"
-    },
-    {
-      "num": "08-14653",
-      "court": "N.D. Ill.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "08-14653"
+      "name": "05-71895"
     },
     {
       "num": "06-20223",
@@ -90,6 +50,14 @@
       "name": "06-20907"
     },
     {
+      "num": "06-21320",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "06-21320"
+    },
+    {
       "num": "06-21516",
       "court": "D. Kan.",
       "chapter": "--",
@@ -98,12 +66,36 @@
       "name": "06-21516"
     },
     {
+      "num": "06-30566",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "06-30566"
+    },
+    {
       "num": "06-40098",
       "court": "D. Kan.",
       "chapter": "--",
       "docs": "1",
       "status": "Donated",
       "name": "06-40098"
+    },
+    {
+      "num": "06-40362",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "06-40362"
+    },
+    {
+      "num": "06-40431",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "06-40431"
     },
     {
       "num": "06-40675",
@@ -120,6 +112,30 @@
       "docs": "1",
       "status": "Donated",
       "name": "06-41290"
+    },
+    {
+      "num": "06-43553",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "06-43553"
+    },
+    {
+      "num": "06-60306",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "06-60306"
+    },
+    {
+      "num": "06-63813",
+      "court": "N.D. Ga.",
+      "chapter": "--",
+      "docs": "7",
+      "status": "Donated",
+      "name": "06-63813"
     },
     {
       "num": "07-10364",
@@ -146,6 +162,14 @@
       "name": "07-13117"
     },
     {
+      "num": "07-20667",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "07-20667"
+    },
+    {
       "num": "07-22188",
       "court": "D. Kan.",
       "chapter": "--",
@@ -162,6 +186,30 @@
       "name": "07-22843"
     },
     {
+      "num": "07-40035",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "07-40035"
+    },
+    {
+      "num": "07-40094",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "07-40094"
+    },
+    {
+      "num": "07-40780",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "07-40780"
+    },
+    {
       "num": "07-41041",
       "court": "D. Kan.",
       "chapter": "--",
@@ -170,12 +218,92 @@
       "name": "07-41041"
     },
     {
+      "num": "07-41851",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "07-41851"
+    },
+    {
+      "num": "07-43404",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "07-43404"
+    },
+    {
+      "num": "07-43533",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "07-43533"
+    },
+    {
+      "num": "07-43535",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "07-43535"
+    },
+    {
+      "num": "07-43877",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "07-43877"
+    },
+    {
+      "num": "07-44042",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "07-44042"
+    },
+    {
+      "num": "07-44421",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "07-44421"
+    },
+    {
+      "num": "07-61411",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "07-61411"
+    },
+    {
+      "num": "08-04029",
+      "court": "N.D. Ill.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "08-04029"
+    },
+    {
       "num": "08-12420",
       "court": "D. Kan.",
       "chapter": "--",
       "docs": "1",
       "status": "Donated",
       "name": "08-12420"
+    },
+    {
+      "num": "08-14653",
+      "court": "N.D. Ill.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "08-14653"
     },
     {
       "num": "08-20066",
@@ -242,6 +370,62 @@
       "name": "08-40070"
     },
     {
+      "num": "08-40084",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "08-40084"
+    },
+    {
+      "num": "08-40389",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "08-40389"
+    },
+    {
+      "num": "08-41933",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "08-41933"
+    },
+    {
+      "num": "08-43083",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "08-43083"
+    },
+    {
+      "num": "08-50056",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "08-50056"
+    },
+    {
+      "num": "08-50397",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "08-50397"
+    },
+    {
+      "num": "08-60148",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "08-60148"
+    },
+    {
       "num": "09-20023",
       "court": "D. Kan.",
       "chapter": "--",
@@ -274,12 +458,60 @@
       "name": "09-24264"
     },
     {
+      "num": "09-36608",
+      "court": "S.D. Tex.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "09-36608"
+    },
+    {
+      "num": "09-40910",
+      "court": "M.D. Ga.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "09-40910"
+    },
+    {
+      "num": "09-40910",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "5",
+      "status": "Donated",
+      "name": "09-40910"
+    },
+    {
       "num": "09-41383",
       "court": "D. Kan.",
       "chapter": "--",
       "docs": "1",
       "status": "Donated",
       "name": "09-41383"
+    },
+    {
+      "num": "09-41770",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "09-41770"
+    },
+    {
+      "num": "09-43209",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "09-43209"
+    },
+    {
+      "num": "09-84515",
+      "court": "N.D. Ga.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "09-84515"
     },
     {
       "num": "10-20638",
@@ -306,6 +538,30 @@
       "name": "10-24103"
     },
     {
+      "num": "10-40622",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "10-40622"
+    },
+    {
+      "num": "10-41193",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "10-41193"
+    },
+    {
+      "num": "10-42390",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "10-42390"
+    },
+    {
       "num": "11-22331",
       "court": "D. Kan.",
       "chapter": "--",
@@ -330,6 +586,54 @@
       "name": "11-23113"
     },
     {
+      "num": "11-23875",
+      "court": "D. Md.",
+      "chapter": "--",
+      "docs": "5",
+      "status": "Donated",
+      "name": "11-23875"
+    },
+    {
+      "num": "11-35403",
+      "court": "E.D. Wis.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "11-35403"
+    },
+    {
+      "num": "11-43586",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "11-43586"
+    },
+    {
+      "num": "11-43749",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "11-43749"
+    },
+    {
+      "num": "11-43866",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "11-43866"
+    },
+    {
+      "num": "11-44798",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "11-44798"
+    },
+    {
       "num": "12-20880",
       "court": "D. Kan.",
       "chapter": "--",
@@ -344,6 +648,38 @@
       "docs": "1",
       "status": "Donated",
       "name": "12-23461"
+    },
+    {
+      "num": "12-43384",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "12-43384"
+    },
+    {
+      "num": "12-44033",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "12-44033"
+    },
+    {
+      "num": "12-45035",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "12-45035"
+    },
+    {
+      "num": "13-02936",
+      "court": "E.D. Wis.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "13-02936"
     },
     {
       "num": "13-20553",
@@ -362,6 +698,30 @@
       "name": "13-22382"
     },
     {
+      "num": "13-42797",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "13-42797"
+    },
+    {
+      "num": "13-43381",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "13-43381"
+    },
+    {
+      "num": "13-43551",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "13-43551"
+    },
+    {
       "num": "14-12132",
       "court": "D. Kan.",
       "chapter": "--",
@@ -378,12 +738,68 @@
       "name": "14-22593"
     },
     {
+      "num": "14-31577",
+      "court": "E.D. Wis.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "14-31577"
+    },
+    {
+      "num": "14-40371",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "14-40371"
+    },
+    {
+      "num": "14-41630",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "14-41630"
+    },
+    {
+      "num": "14-42487",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "14-42487"
+    },
+    {
+      "num": "15-20926",
+      "court": "E.D. Wis.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "15-20926"
+    },
+    {
       "num": "15-21453",
       "court": "D. Kan.",
       "chapter": "--",
       "docs": "2",
       "status": "Donated",
       "name": "15-21453"
+    },
+    {
+      "num": "15-43010",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "4",
+      "status": "Donated",
+      "name": "15-43010"
+    },
+    {
+      "num": "15-43225",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "15-43225"
     },
     {
       "num": "16-22158",
@@ -394,12 +810,36 @@
       "name": "16-22158"
     },
     {
+      "num": "16-40604",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "16-40604"
+    },
+    {
+      "num": "16-42464",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "16-42464"
+    },
+    {
       "num": "17-11250",
       "court": "D. Kan.",
       "chapter": "--",
       "docs": "1",
       "status": "Donated",
       "name": "17-11250"
+    },
+    {
+      "num": "17-11799",
+      "court": "W.D. Wis.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "17-11799"
     },
     {
       "num": "17-21424",
@@ -440,6 +880,86 @@
       "docs": "--",
       "status": "Donated",
       "name": "17-22392"
+    },
+    {
+      "num": "17-40142",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "17-40142"
+    },
+    {
+      "num": "17-40341",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "17-40341"
+    },
+    {
+      "num": "17-41359",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "18",
+      "status": "Donated",
+      "name": "17-41359"
+    },
+    {
+      "num": "17-41523",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "24",
+      "status": "Donated",
+      "name": "17-41523"
+    },
+    {
+      "num": "17-41780",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "17-41780"
+    },
+    {
+      "num": "17-42251",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "17-42251"
+    },
+    {
+      "num": "17-42278",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "17-42278"
+    },
+    {
+      "num": "17-43466",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "17-43466"
+    },
+    {
+      "num": "17-50222",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "17-50222"
+    },
+    {
+      "num": "17-60291",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "19",
+      "status": "Donated",
+      "name": "17-60291"
     },
     {
       "num": "18-10808",
@@ -594,6 +1114,38 @@
       "name": "18-22641"
     },
     {
+      "num": "18-40060",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "18-40060"
+    },
+    {
+      "num": "18-40091",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "18-40091"
+    },
+    {
+      "num": "18-40408",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "18-40408"
+    },
+    {
+      "num": "18-40461",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "18-40461"
+    },
+    {
       "num": "18-40594",
       "court": "D. Kan.",
       "chapter": "--",
@@ -602,12 +1154,44 @@
       "name": "18-40594"
     },
     {
+      "num": "18-40599",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "18-40599"
+    },
+    {
       "num": "18-40649",
       "court": "D. Kan.",
       "chapter": "--",
       "docs": "--",
       "status": "Donated",
       "name": "18-40649"
+    },
+    {
+      "num": "18-40675",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "18-40675"
+    },
+    {
+      "num": "18-40764",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "18-40764"
+    },
+    {
+      "num": "18-41097",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "18-41097"
     },
     {
       "num": "18-41268",
@@ -624,6 +1208,134 @@
       "docs": "1",
       "status": "Donated",
       "name": "18-41542"
+    },
+    {
+      "num": "18-41668",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "18-41668"
+    },
+    {
+      "num": "18-41893",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "3",
+      "status": "Donated",
+      "name": "18-41893"
+    },
+    {
+      "num": "18-42138",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "18-42138"
+    },
+    {
+      "num": "18-42322",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "18-42322"
+    },
+    {
+      "num": "18-42413",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "18-42413"
+    },
+    {
+      "num": "18-42414",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "18-42414"
+    },
+    {
+      "num": "18-42989",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "18-42989"
+    },
+    {
+      "num": "18-43081",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "18-43081"
+    },
+    {
+      "num": "18-43086",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "18-43086"
+    },
+    {
+      "num": "18-43238",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "18-43238"
+    },
+    {
+      "num": "18-50207",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "18-50207"
+    },
+    {
+      "num": "18-50524",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "18-50524"
+    },
+    {
+      "num": "18-60034",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "18-60034"
+    },
+    {
+      "num": "18-60251",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "18-60251"
+    },
+    {
+      "num": "18-60655",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "18-60655"
+    },
+    {
+      "num": "18-61154",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "18-61154"
     },
     {
       "num": "19-11107",
@@ -722,6 +1434,14 @@
       "name": "19-20808"
     },
     {
+      "num": "19-20818",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "19-20818"
+    },
+    {
       "num": "19-20993",
       "court": "D. Kan.",
       "chapter": "--",
@@ -802,12 +1522,204 @@
       "name": "19-22581"
     },
     {
+      "num": "19-40053",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "19-40053"
+    },
+    {
+      "num": "19-40106",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "19-40106"
+    },
+    {
+      "num": "19-40221",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "19-40221"
+    },
+    {
+      "num": "19-40401",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "19-40401"
+    },
+    {
+      "num": "19-40668",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "19-40668"
+    },
+    {
+      "num": "19-40826",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "19-40826"
+    },
+    {
+      "num": "19-40846",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "19-40846"
+    },
+    {
+      "num": "19-40937",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "19-40937"
+    },
+    {
       "num": "19-40965",
       "court": "D. Kan.",
       "chapter": "--",
       "docs": "--",
       "status": "Donated",
       "name": "19-40965"
+    },
+    {
+      "num": "19-41379",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "19-41379"
+    },
+    {
+      "num": "19-41414",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "12",
+      "status": "Donated",
+      "name": "19-41414"
+    },
+    {
+      "num": "19-41415",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "30",
+      "status": "Donated",
+      "name": "19-41415"
+    },
+    {
+      "num": "19-41538",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "19-41538"
+    },
+    {
+      "num": "19-41722",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "19-41722"
+    },
+    {
+      "num": "19-41796",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "19-41796"
+    },
+    {
+      "num": "19-41860",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "19-41860"
+    },
+    {
+      "num": "19-42068",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "19-42068"
+    },
+    {
+      "num": "19-42318",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "19-42318"
+    },
+    {
+      "num": "19-42379",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "19-42379"
+    },
+    {
+      "num": "19-42474",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "19-42474"
+    },
+    {
+      "num": "19-42551",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "19-42551"
+    },
+    {
+      "num": "19-42826",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "19-42826"
+    },
+    {
+      "num": "19-42884",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "19-42884"
+    },
+    {
+      "num": "19-50006",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "19-50006"
+    },
+    {
+      "num": "19-60782",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "19-60782"
     },
     {
       "num": "20-11067",
@@ -978,12 +1890,172 @@
       "name": "20-21627"
     },
     {
+      "num": "20-30247",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "20-30247"
+    },
+    {
+      "num": "20-40022",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "13",
+      "status": "Donated",
+      "name": "20-40022"
+    },
+    {
+      "num": "20-40286",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "17",
+      "status": "Donated",
+      "name": "20-40286"
+    },
+    {
+      "num": "20-40385",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "20-40385"
+    },
+    {
+      "num": "20-40653",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "6",
+      "status": "Donated",
+      "name": "20-40653"
+    },
+    {
+      "num": "20-40829",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "20-40829"
+    },
+    {
+      "num": "20-40916",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "20-40916"
+    },
+    {
       "num": "20-40971",
       "court": "D. Kan.",
       "chapter": "--",
       "docs": "1",
       "status": "Donated",
       "name": "20-40971"
+    },
+    {
+      "num": "20-41132",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "7",
+      "status": "Donated",
+      "name": "20-41132"
+    },
+    {
+      "num": "20-41310",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "13",
+      "status": "Donated",
+      "name": "20-41310"
+    },
+    {
+      "num": "20-41316",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "20-41316"
+    },
+    {
+      "num": "20-41365",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "20-41365"
+    },
+    {
+      "num": "20-41436",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "20-41436"
+    },
+    {
+      "num": "20-41485",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "20-41485"
+    },
+    {
+      "num": "20-41952",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "20-41952"
+    },
+    {
+      "num": "20-41979",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "20-41979"
+    },
+    {
+      "num": "20-41992",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "20-41992"
+    },
+    {
+      "num": "20-42027",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "26",
+      "status": "Donated",
+      "name": "20-42027"
+    },
+    {
+      "num": "20-42158",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "11",
+      "status": "Donated",
+      "name": "20-42158"
+    },
+    {
+      "num": "20-50154",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "4",
+      "status": "Donated",
+      "name": "20-50154"
+    },
+    {
+      "num": "20-60189",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "20-60189"
     },
     {
       "num": "21-10099",
@@ -1074,6 +2146,14 @@
       "name": "21-21416"
     },
     {
+      "num": "21-40090",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "21-40090"
+    },
+    {
       "num": "21-40147",
       "court": "D. Kan.",
       "chapter": "--",
@@ -1090,12 +2170,44 @@
       "name": "21-40240"
     },
     {
+      "num": "21-40251",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "13",
+      "status": "Donated",
+      "name": "21-40251"
+    },
+    {
+      "num": "21-40486",
+      "court": "W.D. Mo.",
+      "chapter": "Ch. 13",
+      "docs": "--",
+      "status": "Donated",
+      "name": "Amy Elizabeth Martin"
+    },
+    {
+      "num": "21-40600",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "21-40600"
+    },
+    {
       "num": "21-40612",
       "court": "D. Kan.",
       "chapter": "Ch. 13",
       "docs": "2",
       "status": "Donated",
       "name": "Gary Wayne Kirk and Rebecca Joe Kirk"
+    },
+    {
+      "num": "21-40661",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "4",
+      "status": "Donated",
+      "name": "21-40661"
     },
     {
       "num": "21-40679",
@@ -1114,12 +2226,108 @@
       "name": "21-40754"
     },
     {
+      "num": "21-40980",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "21-40980"
+    },
+    {
+      "num": "21-40986",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "18",
+      "status": "Donated",
+      "name": "21-40986"
+    },
+    {
+      "num": "21-41060",
+      "court": "W.D. Mo.",
+      "chapter": "Ch. 13",
+      "docs": "1",
+      "status": "Donated",
+      "name": "Michael Jeffrey Fitzpatrick, Jr. and Ste"
+    },
+    {
+      "num": "21-41159",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "10",
+      "status": "Donated",
+      "name": "21-41159"
+    },
+    {
+      "num": "21-41216",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "21-41216"
+    },
+    {
+      "num": "21-41283",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "21-41283"
+    },
+    {
+      "num": "21-41406",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "21-41406"
+    },
+    {
+      "num": "21-41446",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "21-41446"
+    },
+    {
+      "num": "21-50191",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "23",
+      "status": "Donated",
+      "name": "21-50191"
+    },
+    {
       "num": "21-50234",
       "court": "D. Kan.",
       "chapter": "--",
       "docs": "--",
       "status": "Donated",
       "name": "21-50234"
+    },
+    {
+      "num": "21-50234",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "4",
+      "status": "Donated",
+      "name": "21-50234"
+    },
+    {
+      "num": "21-60076",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "21-60076"
+    },
+    {
+      "num": "21-60490",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "21-60490"
     },
     {
       "num": "22-10194",
@@ -1144,6 +2352,14 @@
       "docs": "--",
       "status": "Donated",
       "name": "22-10550"
+    },
+    {
+      "num": "22-20324",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "22-20324"
     },
     {
       "num": "22-20438",
@@ -1218,6 +2434,14 @@
       "name": "James Everett Kuron"
     },
     {
+      "num": "22-40111",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "8",
+      "status": "Donated",
+      "name": "22-40111"
+    },
+    {
       "num": "22-40115",
       "court": "D. Kan.",
       "chapter": "--",
@@ -1226,12 +2450,140 @@
       "name": "22-40115"
     },
     {
+      "num": "22-40184",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "22-40184"
+    },
+    {
+      "num": "22-40190",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "28",
+      "status": "Donated",
+      "name": "22-40190"
+    },
+    {
+      "num": "22-40227",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "27",
+      "status": "Donated",
+      "name": "22-40227"
+    },
+    {
+      "num": "22-40260",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "5",
+      "status": "Donated",
+      "name": "22-40260"
+    },
+    {
+      "num": "22-40377",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "3",
+      "status": "Donated",
+      "name": "22-40377"
+    },
+    {
+      "num": "22-40401",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "22-40401"
+    },
+    {
       "num": "22-40623",
       "court": "D. Kan.",
       "chapter": "--",
       "docs": "--",
       "status": "Donated",
       "name": "22-40623"
+    },
+    {
+      "num": "22-41149",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "22-41149"
+    },
+    {
+      "num": "22-41154",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "22-41154"
+    },
+    {
+      "num": "22-41229",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "22-41229"
+    },
+    {
+      "num": "22-41243",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "22-41243"
+    },
+    {
+      "num": "22-41274",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "22-41274"
+    },
+    {
+      "num": "22-50021",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "18",
+      "status": "Donated",
+      "name": "22-50021"
+    },
+    {
+      "num": "22-50103",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "22-50103"
+    },
+    {
+      "num": "22-50169",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "5",
+      "status": "Donated",
+      "name": "22-50169"
+    },
+    {
+      "num": "22-60113",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "22-60113"
+    },
+    {
+      "num": "22-60458",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "22-60458"
     },
     {
       "num": "23-10632",
@@ -1272,6 +2624,14 @@
       "docs": "3",
       "status": "Donated",
       "name": "Sharon R Jeter"
+    },
+    {
+      "num": "23-20353",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "23-20353"
     },
     {
       "num": "23-20530",
@@ -1386,12 +2746,188 @@
       "name": "Breanna Lynzee Leigh Anderson"
     },
     {
+      "num": "23-40008",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "7",
+      "status": "Donated",
+      "name": "23-40008"
+    },
+    {
+      "num": "23-40025",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "22",
+      "status": "Donated",
+      "name": "23-40025"
+    },
+    {
+      "num": "23-40066",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "7",
+      "status": "Donated",
+      "name": "23-40066"
+    },
+    {
       "num": "23-40209",
       "court": "D. Kan.",
       "chapter": "Ch. 13",
       "docs": "--",
       "status": "Donated",
       "name": "Jesse Emmanuel Davis and Shayla Dawn Dav"
+    },
+    {
+      "num": "23-40226",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "5",
+      "status": "Donated",
+      "name": "23-40226"
+    },
+    {
+      "num": "23-40453",
+      "court": "W.D. Mo.",
+      "chapter": "Ch. 13",
+      "docs": "1",
+      "status": "Donated",
+      "name": "Ryan Alan Cooper"
+    },
+    {
+      "num": "23-40484",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "23-40484"
+    },
+    {
+      "num": "23-40515",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "8",
+      "status": "Donated",
+      "name": "23-40515"
+    },
+    {
+      "num": "23-40582",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "32",
+      "status": "Donated",
+      "name": "23-40582"
+    },
+    {
+      "num": "23-40689",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "6",
+      "status": "Donated",
+      "name": "23-40689"
+    },
+    {
+      "num": "23-40901",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "23-40901"
+    },
+    {
+      "num": "23-40976",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "11",
+      "status": "Donated",
+      "name": "23-40976"
+    },
+    {
+      "num": "23-41010",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "5",
+      "status": "Donated",
+      "name": "23-41010"
+    },
+    {
+      "num": "23-41087",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "23-41087"
+    },
+    {
+      "num": "23-41155",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "23-41155"
+    },
+    {
+      "num": "23-41230",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "23-41230"
+    },
+    {
+      "num": "23-41572",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "23-41572"
+    },
+    {
+      "num": "23-41797",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "6",
+      "status": "Donated",
+      "name": "23-41797"
+    },
+    {
+      "num": "23-50243",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "6",
+      "status": "Donated",
+      "name": "23-50243"
+    },
+    {
+      "num": "23-60039",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "23-60039"
+    },
+    {
+      "num": "23-60282",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "23-60282"
+    },
+    {
+      "num": "23-60293",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "23-60293"
+    },
+    {
+      "num": "23-60517",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "23-60517"
     },
     {
       "num": "24-10142",
@@ -1452,6 +2988,14 @@
     {
       "num": "24-20100",
       "court": "D. Kan.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "24-20100"
+    },
+    {
+      "num": "24-20100",
+      "court": "W.D. Mo.",
       "chapter": "--",
       "docs": "--",
       "status": "Donated",
@@ -1634,6 +3178,29 @@
       "name": "Ashley Jo Allen"
     },
     {
+      "num": "24-40010",
+      "court": "W.D. Mo.",
+      "chapter": "Ch. 11 Sub V",
+      "cl_url": "https://www.courtlistener.com/docket/68140536/victory-cleaning-systems-inc/",
+      "cl_id": 68140536
+    },
+    {
+      "num": "24-40120",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "24-40120"
+    },
+    {
+      "num": "24-40166",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "24-40166"
+    },
+    {
       "num": "24-40190",
       "court": "D. Kan.",
       "chapter": "--",
@@ -1648,6 +3215,38 @@
       "docs": "4",
       "status": "Donated",
       "name": "24-40237"
+    },
+    {
+      "num": "24-40284",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "4",
+      "status": "Donated",
+      "name": "24-40284"
+    },
+    {
+      "num": "24-40464",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "4",
+      "status": "Donated",
+      "name": "24-40464"
+    },
+    {
+      "num": "24-40527",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "24-40527"
+    },
+    {
+      "num": "24-40531",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "10",
+      "status": "Donated",
+      "name": "24-40531"
     },
     {
       "num": "24-40608",
@@ -1666,12 +3265,116 @@
       "name": "24-40609"
     },
     {
+      "num": "24-40662",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "24-40662"
+    },
+    {
+      "num": "24-40665",
+      "court": "W.D. Mo.",
+      "chapter": "Ch. 13",
+      "docs": "17",
+      "status": "Donated",
+      "name": "Mark Wayne Irwin"
+    },
+    {
       "num": "24-40737",
       "court": "D. Kan.",
       "chapter": "--",
       "docs": "--",
       "status": "Donated",
       "name": "24-40737"
+    },
+    {
+      "num": "24-41509",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "24-41509"
+    },
+    {
+      "num": "24-41524",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "7",
+      "status": "Donated",
+      "name": "24-41524"
+    },
+    {
+      "num": "24-41804",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "24-41804"
+    },
+    {
+      "num": "24-41841",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "5",
+      "status": "Donated",
+      "name": "24-41841"
+    },
+    {
+      "num": "24-44469",
+      "court": "E.D. Mo.",
+      "chapter": "--",
+      "docs": "15",
+      "status": "Donated",
+      "name": "24-44469"
+    },
+    {
+      "num": "24-50044",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "5",
+      "status": "Donated",
+      "name": "24-50044"
+    },
+    {
+      "num": "24-50117",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "24-50117"
+    },
+    {
+      "num": "24-50164",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "24-50164"
+    },
+    {
+      "num": "24-50241",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "11",
+      "status": "Donated",
+      "name": "24-50241"
+    },
+    {
+      "num": "24-59580",
+      "court": "N.D. Ga.",
+      "chapter": "--",
+      "docs": "27",
+      "status": "Donated",
+      "name": "24-59580"
+    },
+    {
+      "num": "24-61091",
+      "court": "N.D. Ga.",
+      "chapter": "--",
+      "docs": "25",
+      "status": "Donated",
+      "name": "24-61091"
     },
     {
       "num": "25-10391",
@@ -1730,6 +3433,14 @@
       "name": "25-20089"
     },
     {
+      "num": "25-20217",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "25-20217"
+    },
+    {
       "num": "25-20254",
       "court": "D. Kan.",
       "chapter": "--",
@@ -1744,6 +3455,13 @@
       "docs": "5",
       "status": "Donated",
       "name": "25-20302"
+    },
+    {
+      "num": "25-20315",
+      "court": "W.D. Mo.",
+      "chapter": "Ch. 13",
+      "cl_url": "https://www.courtlistener.com/docket/70828036/paul-stephan-bassett/",
+      "cl_id": 70828036
     },
     {
       "num": "25-20394",
@@ -1826,6 +3544,14 @@
       "name": "Nicolas Steven Philpott, Sr. and Brandi "
     },
     {
+      "num": "25-21875",
+      "court": "S.D. Fla.",
+      "chapter": "--",
+      "docs": "8",
+      "status": "Donated",
+      "name": "25-21875"
+    },
+    {
       "num": "25-40032",
       "court": "D. Kan.",
       "chapter": "--",
@@ -1848,6 +3574,14 @@
       "docs": "--",
       "status": "Donated",
       "name": "Travis Jackson Revelle and Shelby Daniel"
+    },
+    {
+      "num": "25-40184",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "3",
+      "status": "Donated",
+      "name": "25-40184"
     },
     {
       "num": "25-40207",
@@ -1874,12 +3608,84 @@
       "name": "Curtis nmn Pitts"
     },
     {
+      "num": "25-40386",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "25-40386"
+    },
+    {
       "num": "25-40408",
       "court": "D. Kan.",
       "chapter": "--",
       "docs": "2",
       "status": "Donated",
       "name": "25-40408"
+    },
+    {
+      "num": "25-40453",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "25-40453"
+    },
+    {
+      "num": "25-40454",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "30",
+      "status": "Donated",
+      "name": "25-40454"
+    },
+    {
+      "num": "25-40488",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "25-40488"
+    },
+    {
+      "num": "25-40516",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "25-40516"
+    },
+    {
+      "num": "25-40559",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "3",
+      "status": "Donated",
+      "name": "25-40559"
+    },
+    {
+      "num": "25-40561",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "5",
+      "status": "Donated",
+      "name": "25-40561"
+    },
+    {
+      "num": "25-40624",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "--",
+      "status": "Donated",
+      "name": "25-40624"
+    },
+    {
+      "num": "25-40653",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "7",
+      "status": "Donated",
+      "name": "25-40653"
     },
     {
       "num": "25-40816",
@@ -1896,6 +3702,110 @@
       "docs": "--",
       "status": "Donated",
       "name": "Aaron Joseph Jerome Patillo, Jr. and Jen"
+    },
+    {
+      "num": "25-41237",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "25-41237"
+    },
+    {
+      "num": "25-41240",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "25-41240"
+    },
+    {
+      "num": "25-41285",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "5",
+      "status": "Donated",
+      "name": "25-41285"
+    },
+    {
+      "num": "25-41340",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "25-41340"
+    },
+    {
+      "num": "25-41470",
+      "court": "W.D. Mo.",
+      "chapter": "Ch. 13",
+      "docs": "2",
+      "status": "Donated",
+      "name": "Philip Gerhard Shafer, II and Rose Marie"
+    },
+    {
+      "num": "25-41528",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "25-41528"
+    },
+    {
+      "num": "25-41565",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "25-41565"
+    },
+    {
+      "num": "25-41790",
+      "court": "W.D. Mo.",
+      "chapter": "Ch. 13",
+      "docs": "30",
+      "status": "Donated",
+      "name": "Candi Nacole Cooper"
+    },
+    {
+      "num": "25-41905",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "2",
+      "status": "Donated",
+      "name": "25-41905"
+    },
+    {
+      "num": "25-42008",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "1",
+      "status": "Donated",
+      "name": "25-42008"
+    },
+    {
+      "num": "25-50027",
+      "court": "W.D. Mo.",
+      "chapter": "--",
+      "docs": "6",
+      "status": "Donated",
+      "name": "25-50027"
+    },
+    {
+      "num": "25-50359",
+      "court": "W.D. Mo.",
+      "chapter": "Ch. 11",
+      "docs": "21",
+      "status": "Donated",
+      "name": "Terry Lee Catlett and Susan Lee Catlett"
+    },
+    {
+      "num": "26-10131",
+      "court": "E.D. Mo.",
+      "chapter": "Ch. 13",
+      "docs": "1",
+      "status": "Donated",
+      "name": "Melvin Eugene Lomax, Jr."
     },
     {
       "num": "26-10177",
@@ -1952,6 +3862,14 @@
       "docs": "1",
       "status": "Donated",
       "name": "26-10277"
+    },
+    {
+      "num": "26-20017",
+      "court": "E.D. Mo.",
+      "chapter": "Ch. 13",
+      "docs": "1",
+      "status": "Donated",
+      "name": "Kyle Scott Bowman and Hannah Margaret Bo"
     },
     {
       "num": "26-20026",
@@ -2178,6 +4096,14 @@
       "name": "26-20499"
     },
     {
+      "num": "26-40039",
+      "court": "W.D. Mo.",
+      "chapter": "Ch. 13",
+      "docs": "30",
+      "status": "Donated",
+      "name": "Amos Jason Sims and Tiffany Kay Sims"
+    },
+    {
       "num": "26-40119",
       "court": "D. Kan.",
       "chapter": "Ch. 13",
@@ -2194,44 +4120,20 @@
       "name": "Robert Edwin Springstead, III"
     },
     {
-      "num": "11-23875",
-      "court": "D. Md.",
-      "chapter": "--",
-      "docs": "5",
-      "status": "Donated",
-      "name": "11-23875"
-    },
-    {
-      "num": "05-47020",
-      "court": "E.D. Mo.",
-      "chapter": "--",
-      "docs": "11",
-      "status": "Donated",
-      "name": "05-47020"
-    },
-    {
-      "num": "24-44469",
-      "court": "E.D. Mo.",
-      "chapter": "--",
-      "docs": "15",
-      "status": "Donated",
-      "name": "24-44469"
-    },
-    {
-      "num": "26-10131",
-      "court": "E.D. Mo.",
+      "num": "26-40200",
+      "court": "W.D. Mo.",
       "chapter": "Ch. 13",
       "docs": "1",
       "status": "Donated",
-      "name": "Melvin Eugene Lomax, Jr."
+      "name": "Timothy Joel Hansen and Jaime Lea Hansen"
     },
     {
-      "num": "26-20017",
-      "court": "E.D. Mo.",
-      "chapter": "Ch. 13",
-      "docs": "1",
+      "num": "26-40233",
+      "court": "W.D. Mo.",
+      "chapter": "Ch. 11",
+      "docs": "40",
       "status": "Donated",
-      "name": "Kyle Scott Bowman and Hannah Margaret Bo"
+      "name": "Executive Development Associates, Inc."
     },
     {
       "num": "26-40851",
@@ -2458,1846 +4360,6 @@
       "name": "26-41432"
     },
     {
-      "num": "05-71890",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "05-71890"
-    },
-    {
-      "num": "05-71895",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "05-71895"
-    },
-    {
-      "num": "06-21320",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "06-21320"
-    },
-    {
-      "num": "06-30566",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "06-30566"
-    },
-    {
-      "num": "06-40362",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "06-40362"
-    },
-    {
-      "num": "06-40431",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "06-40431"
-    },
-    {
-      "num": "06-43553",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "06-43553"
-    },
-    {
-      "num": "06-60306",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "06-60306"
-    },
-    {
-      "num": "07-20667",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "07-20667"
-    },
-    {
-      "num": "07-40035",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "07-40035"
-    },
-    {
-      "num": "07-40094",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "07-40094"
-    },
-    {
-      "num": "07-40780",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "07-40780"
-    },
-    {
-      "num": "07-41851",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "07-41851"
-    },
-    {
-      "num": "07-43404",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "07-43404"
-    },
-    {
-      "num": "07-43533",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "07-43533"
-    },
-    {
-      "num": "07-43535",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "07-43535"
-    },
-    {
-      "num": "07-43877",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "07-43877"
-    },
-    {
-      "num": "07-44042",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "07-44042"
-    },
-    {
-      "num": "07-44421",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "07-44421"
-    },
-    {
-      "num": "07-61411",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "07-61411"
-    },
-    {
-      "num": "08-40084",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "08-40084"
-    },
-    {
-      "num": "08-40389",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "08-40389"
-    },
-    {
-      "num": "08-41933",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "08-41933"
-    },
-    {
-      "num": "08-43083",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "08-43083"
-    },
-    {
-      "num": "08-50056",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "08-50056"
-    },
-    {
-      "num": "08-50397",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "08-50397"
-    },
-    {
-      "num": "08-60148",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "08-60148"
-    },
-    {
-      "num": "09-40910",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "5",
-      "status": "Donated",
-      "name": "09-40910"
-    },
-    {
-      "num": "09-41770",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "09-41770"
-    },
-    {
-      "num": "09-43209",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "09-43209"
-    },
-    {
-      "num": "10-40622",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "10-40622"
-    },
-    {
-      "num": "10-41193",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "10-41193"
-    },
-    {
-      "num": "10-42390",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "10-42390"
-    },
-    {
-      "num": "11-43586",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "11-43586"
-    },
-    {
-      "num": "11-43749",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "11-43749"
-    },
-    {
-      "num": "11-43866",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "11-43866"
-    },
-    {
-      "num": "11-44798",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "11-44798"
-    },
-    {
-      "num": "12-43384",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "12-43384"
-    },
-    {
-      "num": "12-44033",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "12-44033"
-    },
-    {
-      "num": "12-45035",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "12-45035"
-    },
-    {
-      "num": "13-42797",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "13-42797"
-    },
-    {
-      "num": "13-43381",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "13-43381"
-    },
-    {
-      "num": "13-43551",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "13-43551"
-    },
-    {
-      "num": "14-40371",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "14-40371"
-    },
-    {
-      "num": "14-41630",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "14-41630"
-    },
-    {
-      "num": "14-42487",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "14-42487"
-    },
-    {
-      "num": "15-43010",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "4",
-      "status": "Donated",
-      "name": "15-43010"
-    },
-    {
-      "num": "15-43225",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "15-43225"
-    },
-    {
-      "num": "16-40604",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "16-40604"
-    },
-    {
-      "num": "16-42464",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "16-42464"
-    },
-    {
-      "num": "17-40142",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "17-40142"
-    },
-    {
-      "num": "17-40341",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "17-40341"
-    },
-    {
-      "num": "17-41359",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "18",
-      "status": "Donated",
-      "name": "17-41359"
-    },
-    {
-      "num": "17-41523",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "24",
-      "status": "Donated",
-      "name": "17-41523"
-    },
-    {
-      "num": "17-41780",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "17-41780"
-    },
-    {
-      "num": "17-42251",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "17-42251"
-    },
-    {
-      "num": "17-42278",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "17-42278"
-    },
-    {
-      "num": "17-43466",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "17-43466"
-    },
-    {
-      "num": "17-50222",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "17-50222"
-    },
-    {
-      "num": "17-60291",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "19",
-      "status": "Donated",
-      "name": "17-60291"
-    },
-    {
-      "num": "18-40060",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "18-40060"
-    },
-    {
-      "num": "18-40091",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "18-40091"
-    },
-    {
-      "num": "18-40408",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "18-40408"
-    },
-    {
-      "num": "18-40461",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "18-40461"
-    },
-    {
-      "num": "18-40599",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "18-40599"
-    },
-    {
-      "num": "18-40675",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "18-40675"
-    },
-    {
-      "num": "18-40764",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "18-40764"
-    },
-    {
-      "num": "18-41097",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "18-41097"
-    },
-    {
-      "num": "18-41668",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "18-41668"
-    },
-    {
-      "num": "18-41893",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "3",
-      "status": "Donated",
-      "name": "18-41893"
-    },
-    {
-      "num": "18-42138",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "18-42138"
-    },
-    {
-      "num": "18-42322",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "18-42322"
-    },
-    {
-      "num": "18-42413",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "18-42413"
-    },
-    {
-      "num": "18-42414",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "18-42414"
-    },
-    {
-      "num": "18-42989",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "18-42989"
-    },
-    {
-      "num": "18-43081",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "18-43081"
-    },
-    {
-      "num": "18-43086",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "18-43086"
-    },
-    {
-      "num": "18-43238",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "18-43238"
-    },
-    {
-      "num": "18-50207",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "18-50207"
-    },
-    {
-      "num": "18-50524",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "18-50524"
-    },
-    {
-      "num": "18-60034",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "18-60034"
-    },
-    {
-      "num": "18-60251",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "18-60251"
-    },
-    {
-      "num": "18-60655",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "18-60655"
-    },
-    {
-      "num": "18-61154",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "18-61154"
-    },
-    {
-      "num": "19-20818",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "19-20818"
-    },
-    {
-      "num": "19-40053",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "19-40053"
-    },
-    {
-      "num": "19-40106",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "19-40106"
-    },
-    {
-      "num": "19-40221",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "19-40221"
-    },
-    {
-      "num": "19-40401",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "19-40401"
-    },
-    {
-      "num": "19-40668",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "19-40668"
-    },
-    {
-      "num": "19-40826",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "19-40826"
-    },
-    {
-      "num": "19-40846",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "19-40846"
-    },
-    {
-      "num": "19-40937",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "19-40937"
-    },
-    {
-      "num": "19-41379",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "19-41379"
-    },
-    {
-      "num": "19-41414",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "12",
-      "status": "Donated",
-      "name": "19-41414"
-    },
-    {
-      "num": "19-41415",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "30",
-      "status": "Donated",
-      "name": "19-41415"
-    },
-    {
-      "num": "19-41538",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "19-41538"
-    },
-    {
-      "num": "19-41722",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "19-41722"
-    },
-    {
-      "num": "19-41796",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "19-41796"
-    },
-    {
-      "num": "19-41860",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "19-41860"
-    },
-    {
-      "num": "19-42068",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "19-42068"
-    },
-    {
-      "num": "19-42318",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "19-42318"
-    },
-    {
-      "num": "19-42379",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "19-42379"
-    },
-    {
-      "num": "19-42474",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "19-42474"
-    },
-    {
-      "num": "19-42551",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "19-42551"
-    },
-    {
-      "num": "19-42826",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "19-42826"
-    },
-    {
-      "num": "19-42884",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "19-42884"
-    },
-    {
-      "num": "19-50006",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "19-50006"
-    },
-    {
-      "num": "19-60782",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "19-60782"
-    },
-    {
-      "num": "20-30247",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "20-30247"
-    },
-    {
-      "num": "20-40022",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "13",
-      "status": "Donated",
-      "name": "20-40022"
-    },
-    {
-      "num": "20-40286",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "17",
-      "status": "Donated",
-      "name": "20-40286"
-    },
-    {
-      "num": "20-40385",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "20-40385"
-    },
-    {
-      "num": "20-40653",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "6",
-      "status": "Donated",
-      "name": "20-40653"
-    },
-    {
-      "num": "20-40829",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "20-40829"
-    },
-    {
-      "num": "20-40916",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "20-40916"
-    },
-    {
-      "num": "20-41132",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "7",
-      "status": "Donated",
-      "name": "20-41132"
-    },
-    {
-      "num": "20-41310",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "13",
-      "status": "Donated",
-      "name": "20-41310"
-    },
-    {
-      "num": "20-41316",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "20-41316"
-    },
-    {
-      "num": "20-41365",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "20-41365"
-    },
-    {
-      "num": "20-41436",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "20-41436"
-    },
-    {
-      "num": "20-41485",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "20-41485"
-    },
-    {
-      "num": "20-41952",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "20-41952"
-    },
-    {
-      "num": "20-41979",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "20-41979"
-    },
-    {
-      "num": "20-41992",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "20-41992"
-    },
-    {
-      "num": "20-42027",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "26",
-      "status": "Donated",
-      "name": "20-42027"
-    },
-    {
-      "num": "20-42158",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "11",
-      "status": "Donated",
-      "name": "20-42158"
-    },
-    {
-      "num": "20-50154",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "4",
-      "status": "Donated",
-      "name": "20-50154"
-    },
-    {
-      "num": "20-60189",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "20-60189"
-    },
-    {
-      "num": "21-40090",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "21-40090"
-    },
-    {
-      "num": "21-40251",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "13",
-      "status": "Donated",
-      "name": "21-40251"
-    },
-    {
-      "num": "21-40486",
-      "court": "W.D. Mo.",
-      "chapter": "Ch. 13",
-      "docs": "--",
-      "status": "Donated",
-      "name": "Amy Elizabeth Martin"
-    },
-    {
-      "num": "21-40600",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "21-40600"
-    },
-    {
-      "num": "21-40661",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "4",
-      "status": "Donated",
-      "name": "21-40661"
-    },
-    {
-      "num": "21-40980",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "21-40980"
-    },
-    {
-      "num": "21-40986",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "18",
-      "status": "Donated",
-      "name": "21-40986"
-    },
-    {
-      "num": "21-41060",
-      "court": "W.D. Mo.",
-      "chapter": "Ch. 13",
-      "docs": "1",
-      "status": "Donated",
-      "name": "Michael Jeffrey Fitzpatrick, Jr. and Ste"
-    },
-    {
-      "num": "21-41159",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "10",
-      "status": "Donated",
-      "name": "21-41159"
-    },
-    {
-      "num": "21-41216",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "21-41216"
-    },
-    {
-      "num": "21-41283",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "21-41283"
-    },
-    {
-      "num": "21-41406",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "21-41406"
-    },
-    {
-      "num": "21-41446",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "21-41446"
-    },
-    {
-      "num": "21-50191",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "23",
-      "status": "Donated",
-      "name": "21-50191"
-    },
-    {
-      "num": "21-50234",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "4",
-      "status": "Donated",
-      "name": "21-50234"
-    },
-    {
-      "num": "21-60076",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "21-60076"
-    },
-    {
-      "num": "21-60490",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "21-60490"
-    },
-    {
-      "num": "22-20324",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "22-20324"
-    },
-    {
-      "num": "22-40111",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "8",
-      "status": "Donated",
-      "name": "22-40111"
-    },
-    {
-      "num": "22-40184",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "22-40184"
-    },
-    {
-      "num": "22-40190",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "28",
-      "status": "Donated",
-      "name": "22-40190"
-    },
-    {
-      "num": "22-40227",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "27",
-      "status": "Donated",
-      "name": "22-40227"
-    },
-    {
-      "num": "22-40260",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "5",
-      "status": "Donated",
-      "name": "22-40260"
-    },
-    {
-      "num": "22-40377",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "3",
-      "status": "Donated",
-      "name": "22-40377"
-    },
-    {
-      "num": "22-40401",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "22-40401"
-    },
-    {
-      "num": "22-41149",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "22-41149"
-    },
-    {
-      "num": "22-41154",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "22-41154"
-    },
-    {
-      "num": "22-41229",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "22-41229"
-    },
-    {
-      "num": "22-41243",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "22-41243"
-    },
-    {
-      "num": "22-41274",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "22-41274"
-    },
-    {
-      "num": "22-50021",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "18",
-      "status": "Donated",
-      "name": "22-50021"
-    },
-    {
-      "num": "22-50103",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "22-50103"
-    },
-    {
-      "num": "22-50169",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "5",
-      "status": "Donated",
-      "name": "22-50169"
-    },
-    {
-      "num": "22-60113",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "22-60113"
-    },
-    {
-      "num": "22-60458",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "22-60458"
-    },
-    {
-      "num": "23-20353",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "23-20353"
-    },
-    {
-      "num": "23-40008",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "7",
-      "status": "Donated",
-      "name": "23-40008"
-    },
-    {
-      "num": "23-40025",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "22",
-      "status": "Donated",
-      "name": "23-40025"
-    },
-    {
-      "num": "23-40066",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "7",
-      "status": "Donated",
-      "name": "23-40066"
-    },
-    {
-      "num": "23-40226",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "5",
-      "status": "Donated",
-      "name": "23-40226"
-    },
-    {
-      "num": "23-40453",
-      "court": "W.D. Mo.",
-      "chapter": "Ch. 13",
-      "docs": "1",
-      "status": "Donated",
-      "name": "Ryan Alan Cooper"
-    },
-    {
-      "num": "23-40484",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "23-40484"
-    },
-    {
-      "num": "23-40515",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "8",
-      "status": "Donated",
-      "name": "23-40515"
-    },
-    {
-      "num": "23-40582",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "32",
-      "status": "Donated",
-      "name": "23-40582"
-    },
-    {
-      "num": "23-40689",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "6",
-      "status": "Donated",
-      "name": "23-40689"
-    },
-    {
-      "num": "23-40901",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "23-40901"
-    },
-    {
-      "num": "23-40976",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "11",
-      "status": "Donated",
-      "name": "23-40976"
-    },
-    {
-      "num": "23-41010",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "5",
-      "status": "Donated",
-      "name": "23-41010"
-    },
-    {
-      "num": "23-41087",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "23-41087"
-    },
-    {
-      "num": "23-41155",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "23-41155"
-    },
-    {
-      "num": "23-41230",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "23-41230"
-    },
-    {
-      "num": "23-41572",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "23-41572"
-    },
-    {
-      "num": "23-41797",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "6",
-      "status": "Donated",
-      "name": "23-41797"
-    },
-    {
-      "num": "23-50243",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "6",
-      "status": "Donated",
-      "name": "23-50243"
-    },
-    {
-      "num": "23-60039",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "23-60039"
-    },
-    {
-      "num": "23-60282",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "23-60282"
-    },
-    {
-      "num": "23-60293",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "23-60293"
-    },
-    {
-      "num": "23-60517",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "23-60517"
-    },
-    {
-      "num": "24-20100",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "24-20100"
-    },
-    {
-      "num": "24-40120",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "24-40120"
-    },
-    {
-      "num": "24-40166",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "24-40166"
-    },
-    {
-      "num": "24-40284",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "4",
-      "status": "Donated",
-      "name": "24-40284"
-    },
-    {
-      "num": "24-40464",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "4",
-      "status": "Donated",
-      "name": "24-40464"
-    },
-    {
-      "num": "24-40527",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "24-40527"
-    },
-    {
-      "num": "24-40531",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "10",
-      "status": "Donated",
-      "name": "24-40531"
-    },
-    {
-      "num": "24-40662",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "24-40662"
-    },
-    {
-      "num": "24-40665",
-      "court": "W.D. Mo.",
-      "chapter": "Ch. 13",
-      "docs": "17",
-      "status": "Donated",
-      "name": "Mark Wayne Irwin"
-    },
-    {
-      "num": "24-41509",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "24-41509"
-    },
-    {
-      "num": "24-41524",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "7",
-      "status": "Donated",
-      "name": "24-41524"
-    },
-    {
-      "num": "24-41804",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "24-41804"
-    },
-    {
-      "num": "24-41841",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "5",
-      "status": "Donated",
-      "name": "24-41841"
-    },
-    {
-      "num": "24-50044",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "5",
-      "status": "Donated",
-      "name": "24-50044"
-    },
-    {
-      "num": "24-50117",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "24-50117"
-    },
-    {
-      "num": "24-50164",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "24-50164"
-    },
-    {
-      "num": "24-50241",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "11",
-      "status": "Donated",
-      "name": "24-50241"
-    },
-    {
-      "num": "25-20217",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "25-20217"
-    },
-    {
-      "num": "25-40184",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "3",
-      "status": "Donated",
-      "name": "25-40184"
-    },
-    {
-      "num": "25-40386",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "25-40386"
-    },
-    {
-      "num": "25-40453",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "25-40453"
-    },
-    {
-      "num": "25-40454",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "30",
-      "status": "Donated",
-      "name": "25-40454"
-    },
-    {
-      "num": "25-40488",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "25-40488"
-    },
-    {
-      "num": "25-40516",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "25-40516"
-    },
-    {
-      "num": "25-40559",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "3",
-      "status": "Donated",
-      "name": "25-40559"
-    },
-    {
-      "num": "25-40561",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "5",
-      "status": "Donated",
-      "name": "25-40561"
-    },
-    {
-      "num": "25-40624",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "25-40624"
-    },
-    {
-      "num": "25-40653",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "7",
-      "status": "Donated",
-      "name": "25-40653"
-    },
-    {
-      "num": "25-41237",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "25-41237"
-    },
-    {
-      "num": "25-41240",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "25-41240"
-    },
-    {
-      "num": "25-41285",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "5",
-      "status": "Donated",
-      "name": "25-41285"
-    },
-    {
-      "num": "25-41340",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "25-41340"
-    },
-    {
-      "num": "25-41470",
-      "court": "W.D. Mo.",
-      "chapter": "Ch. 13",
-      "docs": "2",
-      "status": "Donated",
-      "name": "Philip Gerhard Shafer, II and Rose Marie"
-    },
-    {
-      "num": "25-41528",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "25-41528"
-    },
-    {
-      "num": "25-41565",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "25-41565"
-    },
-    {
-      "num": "25-41790",
-      "court": "W.D. Mo.",
-      "chapter": "Ch. 13",
-      "docs": "30",
-      "status": "Donated",
-      "name": "Candi Nacole Cooper"
-    },
-    {
-      "num": "25-41905",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "2",
-      "status": "Donated",
-      "name": "25-41905"
-    },
-    {
-      "num": "25-42008",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "25-42008"
-    },
-    {
-      "num": "25-50027",
-      "court": "W.D. Mo.",
-      "chapter": "--",
-      "docs": "6",
-      "status": "Donated",
-      "name": "25-50027"
-    },
-    {
-      "num": "25-50359",
-      "court": "W.D. Mo.",
-      "chapter": "Ch. 11",
-      "docs": "21",
-      "status": "Donated",
-      "name": "Terry Lee Catlett and Susan Lee Catlett"
-    },
-    {
-      "num": "26-40039",
-      "court": "W.D. Mo.",
-      "chapter": "Ch. 13",
-      "docs": "30",
-      "status": "Donated",
-      "name": "Amos Jason Sims and Tiffany Kay Sims"
-    },
-    {
-      "num": "26-40200",
-      "court": "W.D. Mo.",
-      "chapter": "Ch. 13",
-      "docs": "1",
-      "status": "Donated",
-      "name": "Timothy Joel Hansen and Jaime Lea Hansen"
-    },
-    {
-      "num": "26-40233",
-      "court": "W.D. Mo.",
-      "chapter": "Ch. 11",
-      "docs": "40",
-      "status": "Donated",
-      "name": "Executive Development Associates, Inc."
-    },
-    {
       "num": "26-50023",
       "court": "W.D. Mo.",
       "chapter": "Ch. 13",
@@ -4320,54 +4382,6 @@
       "docs": "1",
       "status": "Donated",
       "name": "AM Pyrotechnics, LLC"
-    },
-    {
-      "num": "09-36608",
-      "court": "S.D. Tex.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "09-36608"
-    },
-    {
-      "num": "11-35403",
-      "court": "E.D. Wis.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "11-35403"
-    },
-    {
-      "num": "13-02936",
-      "court": "E.D. Wis.",
-      "chapter": "--",
-      "docs": "--",
-      "status": "Donated",
-      "name": "13-02936"
-    },
-    {
-      "num": "14-31577",
-      "court": "E.D. Wis.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "14-31577"
-    },
-    {
-      "num": "15-20926",
-      "court": "E.D. Wis.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "15-20926"
-    },
-    {
-      "num": "17-11799",
-      "court": "W.D. Wis.",
-      "chapter": "--",
-      "docs": "1",
-      "status": "Donated",
-      "name": "17-11799"
     }
   ]
 }
