@@ -700,4 +700,16 @@
     <loc>https://pro-se.openbankruptcyproject.org/sitemap.xml</loc>
     <lastmod>2026-04-27</lastmod>
   </sitemap>
+  <sitemap>
+    <loc>https://chapter-7.openbankruptcyproject.org/sitemap.xml</loc>
+    <lastmod>2026-04-27</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://chapter-13.openbankruptcyproject.org/sitemap.xml</loc>
+    <lastmod>2026-04-27</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://tax-debt.openbankruptcyproject.org/sitemap.xml</loc>
+    <lastmod>2026-04-27</lastmod>
+  </sitemap>
 </sitemapindex>
