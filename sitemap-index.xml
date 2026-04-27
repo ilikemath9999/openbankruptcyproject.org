@@ -660,4 +660,12 @@
     <loc>https://undue-hardship.openbankruptcyproject.org/sitemap.xml</loc>
     <lastmod>2026-04-27</lastmod>
   </sitemap>
+  <sitemap>
+    <loc>https://eidl.openbankruptcyproject.org/sitemap.xml</loc>
+    <lastmod>2026-04-27</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://eidl-screener.openbankruptcyproject.org/sitemap.xml</loc>
+    <lastmod>2026-04-27</lastmod>
+  </sitemap>
 </sitemapindex>
