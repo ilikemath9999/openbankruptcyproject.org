@@ -353,6 +353,20 @@
 
     <line x1="60" y1="-705" x2="60" y2="-735" stroke="#6ee089" stroke-width="1.5"/>
     <polygon points="60,-740 56,-732 64,-732" fill="#6ee089"/>
+
+    <!-- 42% DISMISSAL LINE: cases that ended in dismissal got no discharge despite
+         paying full fees. 42% of the conservative 43-mi tower = 18 mi up. -->
+    <rect x="20" y="-148" width="80" height="148" fill="rgba(220,80,60,0.22)"/>
+    <line x1="14" y1="-148" x2="106" y2="-148" stroke="#e85a45" stroke-width="2"/>
+  </g>
+
+  <!-- 42% dismissal-line annotation. Absolute SVG y = 820 - 148 = 672. -->
+  <g>
+    <line x1="746" y1="672" x2="900" y2="678" stroke="rgba(232,90,69,0.7)" stroke-width="1" stroke-dasharray="4 3"/>
+    <text x="910" y="668" font-size="13" fill="#e85a45" font-weight="700" letter-spacing="0.6">42% OF CASES ENDED IN DISMISSAL</text>
+    <text x="910" y="686" font-size="12" fill="#fff">below this line, debtor paid full fees</text>
+    <text x="910" y="702" font-size="12" fill="#fff">but got no debt discharge</text>
+    <text x="910" y="720" font-size="11" fill="#cce" font-style="italic">~14.7M filings, ~$26B paid in for nothing</text>
   </g>
 
   <!-- Tiny human for scale -->
