@@ -1425,8 +1425,8 @@
       message:f.querySelector('[name=message]').value,
       topic:'Site Question ('+f.querySelector('[name=source]').value+')'};
     fetch('https://script.google.com/macros/s/AKfycbwSILiwrhpiognHpMEws-j7Yc-aySqk3vDkCXFmNe-hA-tHrzGC6qid7f6ZqBy3n9sqiQ/exec',{method:'POST',body:JSON.stringify(d)})
-    .then(function(){f.style.display='none';document.getElementById('obp-help-thanks').style.display='block'})
-    .catch(function(){f.style.display='none';document.getElementById('obp-help-thanks').style.display='block'});
+    .then(function(){try{if(typeof gtag==='function'){gtag('event','generate_lead',{form_id:'obp-help-submit',source:d.topic,value:1});}}catch(_){};f.style.display='none';document.getElementById('obp-help-thanks').style.display='block'})
+    .catch(function(){try{if(typeof gtag==='function'){gtag('event','generate_lead',{form_id:'obp-help-submit',source:d.topic,value:1,outcome:'fetch_error'});}}catch(_){};f.style.display='none';document.getElementById('obp-help-thanks').style.display='block'});
   });
   </script>
 </div>
@@ -1565,8 +1565,8 @@
         topic:'Email Signup ('+f.querySelector('[name=source]').value+')',
         name:'',message:'Newsletter signup'};
       fetch('https://script.google.com/macros/s/AKfycbwSILiwrhpiognHpMEws-j7Yc-aySqk3vDkCXFmNe-hA-tHrzGC6qid7f6ZqBy3n9sqiQ/exec',{method:'POST',body:JSON.stringify(d)})
-      .then(function(){f.style.display='none';document.getElementById('obp-signup-thanks').style.display='block'})
-      .catch(function(){f.style.display='none';document.getElementById('obp-signup-thanks').style.display='block'});
+      .then(function(){try{if(typeof gtag==='function'){gtag('event','subscribe',{form_id:'obp-signup-form',source:d.topic,value:1});}}catch(_){};f.style.display='none';document.getElementById('obp-signup-thanks').style.display='block'})
+      .catch(function(){try{if(typeof gtag==='function'){gtag('event','subscribe',{form_id:'obp-signup-form',source:d.topic,value:1,outcome:'fetch_error'});}}catch(_){};f.style.display='none';document.getElementById('obp-signup-thanks').style.display='block'});
     });
   })();
   </script>
