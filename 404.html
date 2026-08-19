@@ -12,10 +12,21 @@
 <meta name="theme-color" content="#0d1117">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <!-- BTN:GA4:START -->
+<!-- 404s aggregate to ONE sentinel path. Previously every broken URL fired its
+     own GA4 pageview under its own path, so _ga4_engagement_ranking.py flagged
+     things like /Html/87/24756.html as high-traffic low-engagement rewrite
+     candidates -- they are not pages at all, they are 404 hits. The requested
+     path is kept as a custom param on a page_not_found event so 404 volume by
+     path stays queryable in GA4 Explore. Forward-looking only: existing GA4
+     history keeps the pollution. -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FTWLM223G7"></script>
 <script>
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
-gtag('js',new Date());gtag('config','G-FTWLM223G7');gtag('config','G-053Z64N82F');
+gtag('js',new Date());
+var _origPath=location.pathname+location.search;
+var _gaCfg={page_path:'/__404__',page_title:'404 Not Found',page_location:location.origin+'/__404__'};
+gtag('config','G-FTWLM223G7',_gaCfg);gtag('config','G-053Z64N82F',_gaCfg);
+gtag('event','page_not_found',{requested_path:_origPath});
 </script>
 <!-- BTN:GA4:END -->
 <style>
