@@ -1,12 +1,19 @@
 {
   "last_updated": "2026-05-23T00:00:00Z",
-  "domains": "210+",
-  "domains_methodology": "Registered + deployed publication domains across the Bankruptcy Transparency Network. Counts each apex domain and each functionally distinct subdomain separately. See https://openbankruptcyproject.org/network/ for the public inventory.",
+  "domains": "153",
+  "domains_methodology": "Live, resolving publication domains measured 2026-08-18 (_status/domain_ns_map_20260818.tsv): 212 CNAME entries exist, of which 43 are NXDOMAIN (never registered) and 16 resolve to third parties we do not own. 153 serve our content.",
   "pages": "49,000+",
   "pages_methodology": "Total HTML pages across the Bankruptcy Transparency Network, English + Spanish + German + Polish + French + Italian. Last full count 2026-05-23: 48,977 active pages (openbankruptcyproject.org 37,854 + statute-sites 10,339 + 1328f.com 784, excluding stale backups and not-owned mirrors). Spanish layer: 3,000+.",
   "pages_spanish": "4,100+",
   "languages": 6,
-  "languages_list": ["English", "Spanish", "German", "Polish", "French", "Italian"],
+  "languages_list": [
+    "English",
+    "Spanish",
+    "German",
+    "Polish",
+    "French",
+    "Italian"
+  ],
   "spend_research": "$508+",
   "recap_cases": "549+",
   "recap_documents": "3,100+",
@@ -26,7 +33,7 @@
     "26-BK-5": "2026-04-16"
   },
   "findings_as_of": "2026-04-11",
-  "fjc_baseline_cases": "8M",
+  "fjc_baseline_cases": "17.2M",
   "fjc_baseline_districts": 94,
   "fjc_baseline_years": "2008-2025",
   "national_dismissal_rate": "58.3%",
@@ -39,5 +46,6 @@
   "nonprofit_ein": "41-5159631",
   "nonprofit_effective_date": "2026-03-27",
   "nonprofit_determination_received": "2026-04-21",
-  "nonprofit_classification": "170(b)(1)(A)(vi) public charity"
+  "nonprofit_classification": "170(b)(1)(A)(vi) public charity",
+  "national_rate_basis": "Chapter 13, FJC Integrated Database 2008-2024. Denominator is TERMINATED cases, not filings. Independently recomputed 2026-08-22 from pacer/data/fjc_national.db (COUNT(DISTINCT casekey); discharge = d1fdsp IN ('A','B')): 1,745,060 of 4,282,561 terminated = 40.7% discharge / 59.3% non-discharge. Direction CONFIRMED; the ~1pt delta is an open reconcile item. Published figures held at 58.3/41.7 per the standing do-not-bump rule."
 }
